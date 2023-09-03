@@ -1,0 +1,550 @@
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
+
+ul,
+ol {
+    list-style: none;
+}
+
+a {
+    display: inline-block;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+ol,
+li,
+a,
+span {
+    margin: 0;
+    padding: 0;
+}
+
+/* Common css end */
+
+/*Menu Part Start */
+
+#menuPart {
+    height: 65px;
+    background: rgba(255, 255, 255, 0.8);
+    transition: all linear .3s;
+    -webkit-transition: all linear .3s;
+    -moz-transition: all linear .3s;
+    -o-transition: all linear .3s;
+    -ms-transition: all linear .3s;
+}
+
+.mainMenu .navbar-nav .nav-item a {
+    color: #333333;
+    margin-right: 10px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    transition: all linear .3s;
+    -webkit-transition: all linear .3s;
+    -moz-transition: all linear .3s;
+    -o-transition: all linear .3s;
+    -ms-transition: all linear .3s;
+
+}
+
+.mainMenu .navbar-nav .nav-item a:hover {
+    color: #fd9237;
+    transform: scale(1.1);
+}
+
+.mainMenu .navbar-nav .nav-item .nav-link.active {
+    color: #fd9237;
+}
+
+.menuFix {
+    position: sticky;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: #ffffff;
+    height: 50px;
+    z-index: 99;
+    -webkit-box-shadow: 0px 3px 10px 0px rgba(0, 0, 0, 0.4);
+    -moz-box-shadow: 0px 3px 10px 0px rgba(0, 0, 0, 0.4);
+    box-shadow: 0px 3px 10px 0px rgba(0, 0, 0, 0.4);
+}
+
+/*Menu Part End */
+
+/* Banenr Part Start */
+
+#bannerPart {
+    position: relative;
+}
+
+.bannerImg {
+    padding: 250px;
+    height: 250px;
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+    background-position: center !important;
+}
+
+#bannerPart .slick-dots {
+    position: absolute;
+    display: flex;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 15px;
+
+}
+
+#bannerPart .slick-dots li button {
+    font-size: 0;
+    background: rgba(226, 62, 56, 0);
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    border: solid 1px #ffffff;
+    margin-right: 10px;
+    outline: 0;
+}
+
+#bannerPart .slick-dots li.slick-active button {
+    border: solid 1px #2c2c2c;
+    background: #2c2c2c;
+}
+
+/* Banenr Part End */
+
+/*Products Part Start */
+
+#ladiesProduct {
+    padding: 60px 0px 10px;
+    background: url(../images/resources/productbg.jpg);
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+    background-position: center !important;
+    background-attachment: fixed;
+    position: relative;
+    z-index: 1;
+}
+
+#ladiesProduct::after {
+    position: absolute;
+    content: '';
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -4;
+    background: rgba(0, 0, 0, 0.8);
+    border: 3px solid #ffffff;
+}
+
+.productTitle h2 {
+    color: #f1f1f1;
+    font-size: 45px;
+    font-family: 'Lobster', cursive;
+    font-weight: 400;
+    padding-bottom: 60px;
+}
+
+.prv_arr {
+    color: #fff;
+    position: absolute;
+    left: -50px;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 5;
+    font-size: 20px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 40px;
+    cursor: pointer;
+    background: rgba(255, 255, 255, 0.3);
+    transition: all linear .2s;
+}
+
+.nxt_arr {
+    color: #fff;
+    position: absolute;
+    right: -50px;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 5;
+    font-size: 20px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 40px;
+    cursor: pointer;
+    background: rgba(255, 255, 255, 0.3);
+    transition: all linear .2s;
+}
+
+.prv_arr:hover,
+.nxt_arr:hover {
+    background: rgba(255, 255, 255, 0.4);
+    color: rgba(0, 0, 0, 0.7);
+}
+
+.products {
+    background: #ffffff;
+    border: 1px solid #e3e3e3;
+    margin-right: 30px;
+    text-align: center;
+    padding: 10px;
+    margin: 0 !important;
+    transition: all linear .3s;
+    -webkit-transition: all linear .3s;
+    -moz-transition: all linear .3s;
+    -o-transition: all linear .3s;
+    -ms-transition: all linear .3s;
+}
+
+/*
+.products:hover {
+    transform: scale(1.05);
+}
+*/
+
+.products img {
+    height: 300px;
+}
+
+.products h5 {
+    color: #333333;
+    font-family: 'Lato', sans-serif;
+    font-size: 20px;
+    padding-bottom: 5px;
+}
+
+.products h6 {
+    color: #ffffff;
+    font-family: 'Lato', sans-serif;
+    font-size: 22px;
+    padding-bottom: 5px;
+    margin-bottom: 5px;
+    font-weight: 700;
+    background: #000000;
+}
+
+.products p {
+    color: #333333;
+    font-family: 'Lato', sans-serif;
+    font-size: 15px;
+    line-height: 25px;
+    padding: 10px 15px;
+}
+
+.products p span {
+    display: block;
+    color: #313aa7;
+    font-weight: 700;
+}
+
+.products .buyButton {
+    Color: #bc0000;
+    background: #ffffff;
+    font-family: 'Anton', sans-serif;
+    padding: 5px 15px;
+    font-weight: 400;
+    border: 1px solid #bc0000;
+    transition: all linear .2s;
+    -webkit-transition: all linear .2s;
+    -moz-transition: all linear .2s;
+    -o-transition: all linear .2s;
+    -ms-transition: all linear .2s;
+}
+
+.products .buyButton:hover {
+    Color: #ffffff;
+    background: #bc0000;
+}
+
+.productSlider1 {
+    padding-bottom: 50px;
+}
+
+
+#beautyProduct {
+    padding: 60px 0px 10px;
+    background: url(../images/resources/beautyBg.jpg);
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+    background-position: center !important;
+    /*    background-attachment: fixed;*/
+    position: relative;
+    z-index: 1;
+    border: 3px solid #ffffff;
+}
+
+#beautyProduct::after {
+    position: absolute;
+    content: '';
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -4;
+    background: rgba(0, 0, 0, 0.8);
+}
+
+#specialProduct {
+    padding: 60px 0px 10px;
+    background: url(../images/resources/specialbg.jpg);
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+    background-position: center !important;
+    background-attachment: fixed;
+    position: relative;
+    z-index: 1;
+}
+
+#specialProduct::after {
+    position: absolute;
+    content: '';
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -4;
+    background: rgba(0, 0, 0, 0.8);
+    border: 3px solid #ffffff;
+}
+
+/*Products Part End */
+
+/* Buy Part Start */
+
+#buyPart {
+    padding: 60px 0px;
+    background: #ededed;
+}
+
+.buyPartHead h2 {
+    color: #000000;
+    font-size: 45px;
+    font-family: 'Lobster', cursive;
+    font-weight: 400;
+    padding-bottom: 30px;
+    padding-top: 30px;
+}
+
+.orderText {
+    padding-top: 30px;
+}
+
+.orderText h3 {
+    color: #333333;
+    font-family: 'Lato', sans-serif;
+    font-size: 35px;
+    padding-bottom: 15px;
+}
+
+.orderText h4 {
+    color: #333333;
+    font-family: 'Lato', sans-serif;
+    font-size: 25px;
+    padding-bottom: 10px;
+}
+
+.orderText h5 {
+    color: #9d4949;
+    font-family: 'Lato', sans-serif;
+    font-size: 25px;
+    padding-bottom: 30px;
+}
+
+
+
+.orderText ol li {
+    color: #000000;
+    font-family: 'Lato', sans-serif;
+    font-size: 20px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+}
+
+.orderText ol li i {
+    padding-left: 10px;
+    font-size: 20px;
+    color: #219f21;
+}
+
+.fbMsg {
+    -webkit-box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.85);
+    -moz-box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.85);
+    box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.85);
+    margin-left: 45px;
+
+}
+
+/* Buy Part End */
+
+
+/* Contact Part Start */
+
+#contactPart {
+    padding: 60px 0;
+    background: #393939;
+}
+
+.contactHead h2 {
+    color: #d1d1d1;
+    font-size: 45px;
+    font-family: 'Lobster', cursive;
+    font-weight: 400;
+    padding-bottom: 30px;
+    padding-top: 30px;
+}
+
+.fbContact {
+    -webkit-box-shadow: 0px 0px 40px 0px rgba(255, 255, 255, .5);
+    -moz-box-shadow: 0px 0px 40px 0px rgba(255, 255, 255, .5);
+    box-shadow: 0px 0px 40px 0px rgba(255, 255, 255, .5);
+    margin-top: 20px;
+    margin-left: 60px;
+}
+
+.contact {
+    margin-top: 80px;
+}
+
+.contact img {
+    padding-bottom: 20px;
+}
+
+.contact p {
+    color: #ffffff;
+    font-family: 'Lato', sans-serif;
+    font-size: 20px;
+    padding-bottom: 15px;
+}
+
+.contact p span {
+    display: block;
+    padding-left: 40px;
+}
+
+.contact p i {
+    padding-right: 25px;
+    color: #fd9237;
+}
+
+
+
+
+.contact h5 {
+    color: #ffffff;
+    font-family: 'Oswald', sans-serif;
+    font-size: 25px;
+    text-transform: uppercase;
+    padding-bottom: 15px;
+    padding-top: 20px;
+    font-weight: 700;
+}
+
+.social {
+    border-top: 1px solid #fd9237;
+}
+
+.social a i {
+    color: #b2b2b2;
+    font-size: 25px;
+    padding-left: 45px;
+    margin-top: 10px;
+    transition: all linear .2s;
+    -webkit-transition: all linear .2s;
+    -moz-transition: all linear .2s;
+    -o-transition: all linear .2s;
+    -ms-transition: all linear .2s;
+}
+
+.social a i:hover {
+    color: #fd9237;
+}
+
+
+/* Contact Part End */
+
+
+/* Copy Right Part Start */
+
+#copyRight {
+    background: #000000;
+    color: #5d5d5d;
+    line-height: 50px;
+    font-family: 'Black Ops One', cursive;
+    font-size: 15px;
+}
+
+#copyRight a {
+    font-family: 'Black Ops One', cursive;
+    color: #8dcaff;
+}
+
+/* Copy Right Part End */
+
+
+/***********************   Back To Top Start   ************************/
+
+.back2top {
+    position: fixed;
+    right: 30px;
+    bottom: 30px;
+    cursor: pointer;
+    display: none;
+    z-index: 9999;
+}
+
+.back2top i {
+    color: #7b7b7b;
+    font-size: 40px;
+    transition: all linear .2s;
+
+}
+
+.back2top i:hover {
+    color: #fd9237;
+    font-size: 40px;
+
+}
+
+/* Pre Loader Start */
+
+.pre_loader {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: #ffffff;
+    z-index: 99999;
+}
+
+.pre_loader img {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+/* Pre Loader End */
+
+/***********************   Back To Top End   ************************/

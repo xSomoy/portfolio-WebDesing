@@ -1,0 +1,489 @@
+/* Common CSS Start */
+
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul,
+ol {
+    list-style: none;
+}
+
+
+img {
+    vertical-align: middle;
+}
+
+.container {
+    width: 1170px;
+    margin: 0 auto;
+}
+
+.clr {
+    clear: both;
+}
+
+.transition {
+    transition: all linear .4s;
+    -webkit-transition: all linear .4s;
+    -moz-transition: all linear .4s;
+    -o-transition: all linear .4s;
+    -ms-transition: all linear .4s;
+}
+
+/* Common CSS End */
+
+/* Menu Part Start */
+
+.menuPart {
+    background: #02918c;
+    height: 60px;
+}
+
+.logo {
+    width: 170px;
+    height: 100%;
+    float: left;
+}
+
+.mainMenu {
+    width: 1000px;
+    float: left;
+    height: 100%;
+}
+
+.logo a img {
+    padding-top: 18px;
+}
+
+.mainMenu ul li {
+    float: left;
+}
+
+.mainMenu ul {
+    float: right;
+}
+
+.mainMenu ul li a {
+    color: #fff;
+    font-size: 12px;
+    font-weight: 800;
+    font-family: 'Open Sans', sans-serif;
+    line-height: 60px;
+    text-transform: uppercase;
+    margin-left: 50px;
+}
+
+.mainMenu ul li a:hover {
+    color: #cfc91d;
+}
+
+/* Memsu Part End *ms
+
+/* Banner Part Start */
+
+.bannerPart {
+    background: url(../images/mainBanner.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 212px 0 210px;
+}
+
+.bannerText {
+    text-align: center;
+}
+
+.bannerText h3 {
+    color: #fff;
+    font-size: 30px;
+    font-weight: 400;
+    font-family: 'Open Sans', sans-serif;
+    margin-bottom: -6px;
+}
+
+.bannerText h1 {
+    color: #fff;
+    font-size: 60px;
+    font-weight: 800;
+    font-family: 'Open Sans', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 20px;
+    margin-bottom: -7px;
+}
+
+.bannerText p {
+    color: #fff;
+    font-size: 18px;
+    font-weight: 400;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.bannerText img {
+    display: block;
+    margin: 0 auto;
+    padding: 52px 0;
+}
+
+
+.bannerText a {
+    padding: 18px 42px;
+    background: #cfc91d;
+    color: #0b1016;
+    font-size: 14px;
+    font-weight: 800;
+    font-family: 'Open Sans', sans-serif;
+    text-transform: uppercase;
+}
+
+.bannerText a:hover {
+    color: #02918c;
+}
+
+/* Banner Part End */
+
+/* About Part Start */
+
+.aboutPart {
+    padding: 100px 0;
+}
+
+.aboutHead {
+    text-align: center;
+}
+
+.aboutHead h2 {
+    padding-top: 100px;
+    color: #02918c;
+    font-size: 46px;
+    font-weight: 800;
+    font-family: 'Open Sans', sans-serif;
+    text-transform: uppercase;
+}
+
+.aboutHead p {
+    color: #7e8287;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Open Sans', sans-serif;
+    line-height: 41px;
+    padding: 0 140px 85px;
+}
+
+.aboutHead img {
+    padding: 18px 0 15px;
+}
+
+.aboutHead p span {
+    font-size: 23px;
+    font-weight: 800;
+}
+
+.aboutInner {
+    float: left;
+    width: 25%;
+    text-align: center;
+    border-right: solid 1px #d9dbdb;
+    box-sizing: border-box;
+    margin-bottom: 100px;
+}
+
+.aboutInner i {
+    padding: 16px 0 0;
+    font-size: 34px;
+    color: #02918c;
+}
+
+.aboutInner h5 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 800;
+    color: #7e8287;
+    padding: 20px 0 20px;
+}
+
+.aboutInner p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 11px;
+    font-weight: 400;
+    color: #7e8287;
+    padding: 0 60px 55px;
+    line-height: 21px;
+}
+
+.aboutBorder {
+    border-right: 0px;
+}
+
+/* About Part End */
+
+/* Service Part Start */
+
+.servicePart {
+    background: url(../images/serviceBanner.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 74px 10px 0 86px;
+}
+
+.serviceText {
+    width: 50%;
+}
+
+.serviceText h2 {
+    color: #02918c;
+    font-size: 46px;
+    font-weight: 800;
+    font-family: 'Open Sans', sans-serif;
+    text-transform: uppercase;
+}
+
+.serviceText img {
+    padding: 30px 0 25px;
+}
+
+.serviceText p {
+    color: #7e8287;
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+    padding: 0 95px 45px 0;
+    line-height: 41px;
+}
+
+.serviceBox {
+    float: left;
+    width: 50%;
+}
+
+.serviceBox i {
+    font-size: 33px;
+    color: #02918c;
+    padding-bottom: 12px;
+}
+
+.serviceBox h5 {
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 800;
+    color: #7e8287;
+}
+
+.serviceBox p {
+    font-size: 11px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    color: #7e8287;
+    line-height: 21px;
+}
+
+/* Service Part End */
+
+/* My Work Part Start */
+
+.myworkPartInner {
+    text-align: center;
+}
+
+.myworkPartInner h2 {
+    padding-top: 100px;
+    color: #02918c;
+    font-size: 46px;
+    font-weight: 800;
+    font-family: 'Open Sans', sans-serif;
+    text-transform: uppercase;
+}
+
+.myworkPartInner p {
+    color: #7e8287;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Open Sans', sans-serif;
+    line-height: 41px;
+    padding: 0 240px 85px;
+}
+
+.myworkPartInner img {
+    padding: 18px 0 15px;
+}
+
+/* My Work Part End */
+
+/* Photo Part Start */
+
+.photoPart {
+    width: 100%;
+}
+
+.photo {
+    float: left;
+    width: 25%;
+    position: relative;
+}
+
+.photo img {
+    width: 100%;
+}
+
+.photo .imgOverlay {
+    position: absolute;
+    left: 28px;
+    top: 20px;
+    bottom: 20px;
+    right: 28px;
+    background: rgba(2, 145, 140, 0.85);
+    text-align: center;
+    padding: 58px 40px 0;
+    visibility: hidden;
+    opacity: 0;
+}
+
+.photo .imgOverlay h5 {
+    color: #fff;
+    font-size: 16px;
+    font-weight: 800;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.photo .imgOverlay p {
+    color: #fff;
+    font-size: 13px;
+    font-weight: 400;
+    font-family: 'Open Sans', sans-serif;
+    line-height: 21px;
+}
+
+.photo:hover .imgOverlay {
+    visibility: visible;
+    opacity: 1;
+}
+
+/* Photo Part End */
+
+/* Footer Part Start */
+
+/* Contact Me Part Start */
+
+.contactMe {
+    text-align: center;
+}
+
+.contactMe h2 {
+    padding-top: 100px;
+    color: #02918c;
+    font-size: 46px;
+    font-weight: 800;
+    font-family: 'Open Sans', sans-serif;
+    text-transform: uppercase;
+}
+
+.contactMe p {
+    color: #7e8287;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Open Sans', sans-serif;
+    line-height: 41px;
+    padding: 0 240px 85px;
+}
+
+.contactMe img {
+    padding: 18px 0 15px;
+}
+
+/* Contact Me Part End */
+
+/* From Part Start */
+
+.footerForm {
+    background: #0b0b0b;
+}
+
+
+.footerForm form input {
+    text-align: center;
+    width: 637px;
+    border: none;
+    border-bottom: solid 1px #898989;
+    background: transparent;
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+    color: #ffffff;
+    padding-bottom: 18px;
+    margin-top: 69px;
+    margin-left: 256px;
+
+}
+
+.footerForm form input::placeholder {
+    color: #7e8287;
+    text-transform: uppercase;
+}
+
+.footerForm form label{
+    display: block;
+    color: #7e8287;
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+    padding: 53px 0px 18px;
+    text-align: center;
+}
+
+.footerForm form textarea{
+    width: 907px;
+    height: 80px;
+    border: none;
+    border-bottom: solid 1px #898989;
+    border-top: solid 1px #898989;
+    background: transparent;
+    resize: none;
+    margin-bottom: 67px;
+    margin-left: 117px;
+    color: #ffffff;
+    padding: 10px;
+    text-align: center;
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.footerForm form button {
+    display: block;
+    margin: 0 auto; 
+    padding: 19px 65px;
+    border: none;
+    background: #cfc91d;
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 800;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    margin-bottom: 70px;
+}
+
+/* From Part End */
+
+/* Copy Right Part Start */
+
+.footerCred {
+    background: #000000;
+}
+
+.footerCred p{
+    text-align: center;
+    font-size: 12px;
+    font-family: 'Open Sans', sans-serif;
+    color: #7e8287;
+    padding: 35px 0px 27px;
+}
+
+/* Copy Right Part Start */
+
+
+
+
+/* Footer Part End */

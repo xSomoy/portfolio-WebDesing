@@ -1,0 +1,1 @@
+document.getElementsByClassName("_58an").placeholder = "FullName:";

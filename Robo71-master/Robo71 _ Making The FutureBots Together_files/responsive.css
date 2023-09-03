@@ -1,0 +1,1357 @@
+@media (min-width: 1200px) {
+    #gallery_part p {
+        padding: 7px 120px 54px;
+    }
+
+    #programmes .pgrm_p_1 {
+        padding-top: 15px;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+    #banner img {
+        top: -17%;
+    }
+
+    .robot-img .inset-glow::before,
+    #banner .robot-img::before {
+        height: 75%;
+        width: 85%
+    }
+
+    .robot-img .inset-glow::after,
+    #banner .robot-img::after {
+        height: 75%;
+        width: 85%
+    }
+
+    #about .robot {
+        left: 0;
+    }
+
+    #about {
+        padding-bottom: 100px;
+    }
+
+    #about .about_p_1 {
+        padding-top: 30px;
+    }
+
+    .common_button {
+        margin-top: 25px;
+    }
+
+    #programmes .pgrm_p_1 {
+        padding-top: 15px;
+    }
+
+    #gallery_part p {
+        padding: 7px 70px 54px;
+    }
+
+    .text-fields {
+        padding: 5px;
+    }
+
+    .text-fields::placeholder {
+        font-size: 14px;
+    }
+
+    textarea {
+        height: 100px;
+        margin-bottom: 15px;
+    }
+
+    #form_part button {
+        margin-top: 15px;
+    }
+
+    #form_part h3 {
+        font-size: 35px;
+    }
+
+    .map_img img {
+        height: 521px;
+    }
+
+    /*===============================================
+                    Home Page End
+    ===============================================*/
+
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    #navbar_section .navbar-brand img {
+        width: 200px;
+        margin-left: -30px;
+    }
+
+    #navbar_section .navbar-nav .nav-item .nav-link {
+        padding: 0px 8px;
+    }
+
+    .inset-glow {
+        display: none;
+    }
+
+    .robot-img .inset-glow::before,
+    #banner .robot-img::before {
+        display: none
+    }
+
+    .robot-img .inset-glow::after,
+    #banner .robot-img::after {
+        display: none
+    }
+
+    #banner {
+        padding-top: 150px;
+        padding-bottom: 130px;
+    }
+
+    #banner h1 {
+        font-size: 125px;
+        line-height: 115px;
+    }
+
+    #banner h3 {
+        font-size: 90px;
+    }
+
+    .about_p_1 {
+        display: none;
+    }
+
+    .about_p_2 {
+        padding-top: 20px;
+    }
+
+    #about .about_p_1 {
+        padding-top: 25px;
+    }
+
+    .common_button {
+        margin-top: 10px;
+    }
+
+    #about .robot {
+        left: 0;
+    }
+
+    .abut_logo {
+        width: 130px;
+    }
+
+    #about {
+        padding-bottom: 70px;
+    }
+
+    #programmes p {
+        padding-top: 15px;
+        text-align: justify;
+    }
+
+    #programmes {
+        margin-top: 70px;
+    }
+
+    .pgrm_p_1 {
+        display: none;
+    }
+
+    .pgrm_left {
+        padding-bottom: 135px;
+    }
+
+    #programmes {
+        padding-top: 0;
+    }
+
+    .outside {
+        margin-top: 0;
+    }
+
+    #events {
+        padding: 60px 0 70px;
+    }
+
+    .events_btn_1 {
+        margin-top: 30px;
+    }
+
+    .para_div {
+        margin: 0px 70px;
+    }
+
+    #events .evnt_head {
+        margin-bottom: 35px;
+    }
+
+    .text-fields {
+        padding: 5px 5px;
+    }
+
+    .text-fields::placeholder {
+        font-size: 14px;
+    }
+
+    textarea {
+        height: 80px;
+        padding: 5px;
+        margin-bottom: 15px;
+    }
+
+    #form_part h3 {
+        font-size: 35px;
+        padding-bottom: 10px;
+    }
+
+    textarea::placeholder {
+        font-size: 14px;
+    }
+
+    #form_part img.form_logo {
+        margin-bottom: 15px;
+        width: 150px;
+    }
+
+    #form_part {
+        padding: 70px 0;
+    }
+
+    .form_chk {
+        display: inline;
+        font-size: 12px;
+    }
+
+    #form_part button {
+        line-height: 40px;
+        margin-top: 20px;
+        font-size: 18px;
+    }
+
+    #team_part .team_para {
+        margin: 0 70px;
+        margin-bottom: 0px;
+    }
+
+    #team_part p {
+        padding-bottom: 30px;
+    }
+
+    #team_part {
+        padding: 60px 0 60px;
+    }
+
+    #gallery_part p {
+        padding-bottom: 60px;
+    }
+
+    #gallery_part {
+        padding: 60px 0 70px;
+    }
+
+    .tem_img .overly {
+        height: 100px;
+    }
+
+    .tem_img .overly h4 {
+        font-size: 25px;
+        padding-top: 25px;
+        padding-bottom: 0;
+    }
+
+    .tem_img .overly h5 {
+        font-size: 16px;
+    }
+
+    .left-map {
+        position: relative;
+        left: 0;
+        top: 0;
+    }
+
+    #contact {
+        padding: 70px 0 45px;
+    }
+
+    #contact ul li {
+        margin-right: 0;
+        padding-left: 30px;
+        position: relative;
+    }
+
+    .ad_main ul li a {
+        width: 20px;
+        left: 15px;
+        padding-right: 0px;
+    }
+
+    #contact p {
+        font-size: 15px;
+    }
+
+    #contact h3 {
+        font-size: 25px;
+        margin-bottom: 15px;
+    }
+
+    .contact_head p {
+        padding: 7px 0 55px;
+    }
+
+    .ad_main ul li p {
+        padding-left: 10px;
+    }
+
+    .ad_main ul li i {
+        position: absolute;
+        left: 0;
+        top: 5px;
+        font-size: 20px;
+    }
+
+    .ad_main ul {
+        margin-top: 10px;
+    }
+
+    .map_img img {
+        height: 526px;
+    }
+
+    .ad_main {
+        margin-top: 30px;
+    }
+
+    #footer .nav_bottom {
+        display: none;
+    }
+
+    /*===============================================
+                    Home Page End
+    ===============================================*/
+
+    /*==================================================
+                    Tranning Page start
+    ==================================================*/
+    .tran_robo_img {
+        left: 0;
+    }
+
+    .tran_robo_text p {
+        font-size: 15px;
+        line-height: 22px;
+        padding-top: 10px;
+    }
+
+    .tran_robo_text p span {
+        padding-top: 15px;
+    }
+
+    .tran_robo_text h2 {
+        font-size: 30px;
+    }
+
+    .tran_tab_menu {
+        padding: 15px;
+        font-size: 16px;
+    }
+
+    .tran_tab_menu::after {
+        left: 15px;
+        width: 185px;
+    }
+
+    .tab_cont_main {
+        padding: 15px;
+    }
+
+    .tab_cont_main p {
+        font-size: 15px;
+        line-height: 24px;
+    }
+
+    /*==================================================
+                    Tranning Page end
+    ==================================================*/
+
+    /*==================================================
+                    Research Page start
+    ==================================================*/
+    .research_robo_img {
+        left: 0 !important;
+    }
+
+    /*==================================================
+                    Research Page end
+    ==================================================*/
+
+    /*==================================================
+                Join Form Page end
+    ==================================================*/
+    .form_text h2 {
+        padding-top: 20px;
+    }
+
+    #form_head {
+        padding: 70px 0;
+    }
+
+    .frm_txt2 {
+        padding-top: 10px;
+    }
+
+    .form_text ol li {
+        padding-top: 15px;
+    }
+
+    .cv_logo img {
+        max-width: 100%;
+    }
+
+    #main_form_cv form {
+        padding: 20px 15px;
+    }
+
+    .form_ques p {
+        font-size: 14px;
+    }
+
+    .form_ques label {
+        font-size: 14px;
+    }
+
+    .parent_info h3 {
+        padding-top: 30px;
+        padding-bottom: 20px;
+    }
+
+    #main_form_cv {
+        padding-bottom: 70px;
+    }
+
+    .emergency_cont h3 {
+        padding-top: 30px;
+        padding-bottom: 20px;
+    }
+
+    .emergency_cont label {
+        font-size: 13px;
+    }
+
+    .form_left label {
+        font-size: 13px;
+    }
+
+    /*==================================================
+                Join Form Page start
+    ==================================================*/
+}
+
+@media (min-width: 576px) and (max-width: 767px) {
+
+    /* navbar section start */
+    #navbar_section {
+        background: #0a2230;
+    }
+
+    .menubar {
+        position: relative;
+    }
+
+    .menubar a img {
+        width: 200px;
+        margin-left: -30px;
+    }
+
+    .menubar button.navbar-toggler {
+        color: #fff;
+        margin-top: -10px;
+    }
+
+    .menubar #navbarSupportedContent {
+        border-top: 1px solid #fff;
+        background: #0a2230;
+        position: absolute;
+        left: 0;
+        top: 85px;
+        width: 100%;
+        z-index: 999;
+        text-align: center;
+    }
+
+    #navbar_section .navbar-nav .nav-item .nav-link {
+        line-height: 40px;
+    }
+
+    /* navbar section end */
+    /* Banner section start */
+    #banner {
+        padding-top: 50px;
+        padding-bottom: 125px;
+    }
+
+    #banner h1 {
+        font-size: 80px;
+        line-height: 80px;
+        margin-bottom: 0;
+    }
+
+    #banner h3 {
+        font-size: 70px;
+        text-shadow: 0px 0px 50px rgba(87, 236, 250, 0.6);
+        line-height: 70px;
+    }
+
+    #banner p {
+        margin: 20px 0 50px 0;
+        padding-left: 15px;
+    }
+
+    #banner p::before {
+        height: 100%;
+    }
+
+    .robot-img .inset-glow::before,
+    #banner .robot-img::before {
+        display: none;
+    }
+
+    .robot-img .inset-glow::after,
+    #banner .robot-img::after {
+        display: none;
+    }
+
+    #banner img {
+        display: none;
+    }
+
+    /* Banner section end */
+    /* About section start */
+    #about h3 {
+        padding-top: 550px;
+    }
+
+    #about {
+        padding-bottom: 60px;
+    }
+
+    #about .about_p_1 {
+        padding-top: 25px;
+    }
+
+    /*
+    .abut_logo {
+        width: 170px;
+    }
+*/
+
+    /* About section end */
+    /* Program section start */
+    #programmes {
+        padding-top: 50px;
+    }
+
+    .outside {
+        position: relative;
+        width: 100%;
+        margin-top: 0;
+    }
+
+    #programmes ul.slick-dots {
+        display: none !important;
+    }
+
+    .pgrm_left {
+        padding-bottom: 50px;
+    }
+
+    #programmes .pgrm_p_1 {
+        margin-bottom: 20px;
+        text-align: justify;
+        padding-top: 20px;
+    }
+
+    #programmes p {
+        text-align: justify;
+    }
+
+    /* Program section end */
+    /* Event section start */
+    #events {
+        padding: 50px 0 30px;
+    }
+
+    .para_div {
+        margin: 0;
+    }
+
+    #events .evnt_head {
+        margin-bottom: 25px;
+    }
+
+    .evnt_mar {
+        margin-bottom: 30px;
+    }
+
+    #form_part {
+        padding: 60px 0;
+    }
+
+    #form_part h3 {
+        font-size: 35px;
+        padding-top: 20px;
+    }
+
+    #form_part .form_logo {
+        width: 150px;
+    }
+
+    /* Event section end */
+    /* Team section start */
+    #team_part .team_para {
+        margin: 0;
+    }
+
+    .tem_img {
+        margin-top: 30px;
+    }
+
+    #team_part p {
+        padding-bottom: 0px;
+    }
+
+    /* Team section end */
+    /* Gallery section start */
+    #gallery_part {
+        padding: 50px 0 15px;
+    }
+
+    #gallery_part .gal_row_1 {
+        margin-bottom: 30px;
+        margin-right: 0;
+    }
+
+    .gall_img {
+        margin-right: -15px;
+    }
+
+    /* Gallery section end */
+    /* Map section start */
+    .left-map {
+        position: relative;
+        top: 0;
+    }
+
+    .gall_img {
+        margin-bottom: 15px;
+    }
+
+    #gallery_part p {
+        padding-bottom: 35px;
+    }
+
+    .tem_img .overly {
+        height: 100px;
+    }
+
+    .tem_img .overly h4 {
+        font-size: 25px;
+        padding-top: 25px;
+        padding-bottom: 0px;
+    }
+
+    .tem_img .overly h5 {
+        font-size: 17px;
+    }
+
+    #contact {
+        padding: 50px 0 35px;
+    }
+
+    .ad_main ul li a {
+        width: 60px;
+        left: -12px;
+        padding-right: 12px;
+    }
+
+    #contact h3 {
+        margin-bottom: 10px;
+    }
+
+    .contact_head p {
+        padding: 7px 0 55px;
+    }
+
+    .map_img {
+        margin-bottom: 20px;
+    }
+
+    .ad_main {
+        margin-top: 10px;
+    }
+
+    #footer .nav_bottom {
+        display: none;
+    }
+
+    /* Map section end */
+    /*===============================================
+                Home Page End
+    ===============================================*/
+    /*==================================================
+                    About Page start
+    ==================================================*/
+    #about_banner_part {
+        padding: 50px 0 50px;
+    }
+
+    .about_banner_text h1 {
+        font-size: 30px;
+    }
+
+    .about_banner_text ol li a {
+        font-size: 16px !important;
+    }
+
+    .about_banner_text ol li {
+        font-size: 16px !important;
+    }
+
+    .page_about .robot {
+        position: absolute !important;
+        top: -122px !important;
+    }
+
+    #about p {
+        text-align: justify;
+    }
+
+    .page_about {
+        padding-top: 100px !important;
+    }
+
+    /*==================================================
+                    About Page end
+    ==================================================*/
+
+    /*==================================================
+                    Tranning Page start
+    ==================================================*/
+    .tran_robo_img {
+        left: 0;
+    }
+
+    #tranning_page_part {
+        padding: 60px 0 50px;
+    }
+
+    .tran_robo_text h2 {
+        font-size: 25px;
+        padding-top: 30px;
+    }
+
+    .tran_robo_text p {
+        font-size: 15px;
+        line-height: 24px;
+        padding-top: 20px;
+        text-align: justify;
+    }
+
+    .tran_tab_menu {
+        padding: 15px;
+        font-size: 16px;
+    }
+
+    #tranning_tab_part {
+        padding-bottom: 60px;
+    }
+
+    .tran_tab_menu::after {
+        left: 15px;
+        width: 94%;
+    }
+
+    /*==================================================
+                    Tranning Page end
+    ==================================================*/
+
+    /*==================================================
+                    Research Page start
+    ==================================================*/
+    .research_robo_img {
+        left: 0 !important;
+    }
+
+    /*==================================================
+                    Research Page end
+    ==================================================*/
+
+    /*==================================================
+                Join Form Page end
+    ==================================================*/
+    .form_text h2 {
+        font-size: 25px;
+        padding-top: 20px;
+    }
+
+    #form_head {
+        padding: 60px 0;
+    }
+
+    .form_text p {
+        font-size: 15px;
+        line-height: 24px;
+        text-align: justify;
+    }
+
+    .frm_txt2 {
+        padding-top: 10px;
+    }
+
+    .form_text ol li {
+        font-size: 15px;
+        line-height: 24px;
+        padding-top: 15px;
+        text-align: justify;
+    }
+
+    .form_cv_img {
+        width: 70px;
+        height: 87px;
+        right: 15px;
+        top: -200px;
+    }
+
+    .cv_logo {
+        padding-bottom: 110px;
+    }
+
+    .cv_logo img {
+        max-width: 100%;
+    }
+
+    #main_form_cv form {
+        padding: 20px 15px;
+    }
+
+    .form_left input {
+        margin-bottom: 10px;
+    }
+
+    .form_ques p {
+        font-size: 14px;
+    }
+
+    .form_ques label {
+        font-size: 14px;
+    }
+
+    .parent_info h3 {
+        font-size: 27px;
+        padding-top: 30px;
+        padding-bottom: 20px;
+    }
+
+    #main_form_cv {
+        padding-bottom: 60px;
+    }
+
+    .emergency_cont h3 {
+        font-size: 27px;
+        padding-top: 30px;
+        padding-bottom: 20px;
+    }
+
+    /*==================================================
+                Join Form Page start
+    ==================================================*/
+}
+
+@media (max-width: 575px) {
+
+    /* navbar section start */
+    #navbar_section {
+        background: #0a2230;
+    }
+
+    .menubar {
+        position: relative;
+    }
+
+    .menubar a img {
+        width: 200px;
+        margin-left: -30px;
+    }
+
+    .menubar button.navbar-toggler {
+        color: #fff;
+        margin-top: -10px;
+    }
+
+    .menubar #navbarSupportedContent {
+        border-top: 1px solid #fff;
+        background: #0a2230;
+        position: absolute;
+        left: 0;
+        top: 85px;
+        width: 100%;
+        z-index: 999;
+        text-align: center;
+    }
+
+    #navbar_section .navbar-nav .nav-item .nav-link {
+        line-height: 40px;
+    }
+
+    /*
+    
+    .menubar button .bars {
+        width: 20px;
+        height: 3px;
+        background: #fff;
+        display: inline-block;
+    }
+    .menubar button {
+        position: relative;
+    }
+    .menubar button::after {
+        position: absolute;
+        content: '';
+        left: 50%;
+        top: 5px;
+        width: 20px;
+        height: 3px;
+        background: #fff;
+        transform: translateX(-50%);
+        transition: all linear .3s;
+    }
+    .menubar button::before {
+        position: absolute;
+        content: '';
+        left: 50%;
+        top: 12px;
+        width: 20px;
+        height: 3px;
+        background: #fff;
+        transform: translateX(-50%);
+        transition: all linear .3s;
+    }
+    .menubar button:focus .bars {
+        opacity: 0;
+    }
+
+    .menubar button:focus:after{
+        transform: rotate(-45deg);
+    }
+    .menubar button:focus:before{
+        transform: rotate(45deg);
+    }
+*/
+
+    /* navbar section end */
+    /* Banner section start */
+    #banner {
+        padding-top: 40px;
+        padding-bottom: 125px;
+    }
+
+    #banner h1 {
+        font-size: 70px;
+        line-height: 70px;
+        margin-bottom: 0;
+    }
+
+    #banner h3 {
+        font-size: 65px;
+        text-shadow: 0px 0px 40px rgba(87, 236, 250, 0.6);
+        line-height: 65px;
+    }
+
+    #banner p {
+        margin: 20px 0 30px 0;
+        padding-left: 15px;
+    }
+
+    #banner p::before {
+        height: 100%;
+    }
+
+    .robot-img .inset-glow::before,
+    #banner .robot-img::before {
+        display: none;
+    }
+
+    .robot-img .inset-glow::after,
+    #banner .robot-img::after {
+        display: none;
+    }
+
+    #banner img {
+        display: none;
+    }
+
+    /* Banner section end */
+    /* About section start */
+    #about .robot {
+        left: 0;
+        width: 320px;
+    }
+
+    #about h3 {
+        padding-top: 287px;
+        padding-bottom: 10px;
+    }
+
+    #programmes .pgrm_p_1 {
+        margin-bottom: 20px;
+        text-align: justify;
+        padding-top: 20px;
+    }
+
+    #programmes p {
+        text-align: justify;
+    }
+
+    #about .about_p_1 {
+        padding-top: 25px;
+    }
+
+    #about {
+        padding-bottom: 50px;
+    }
+
+    #programmes {
+        padding-top: 40px;
+    }
+
+    #programmes .draggable {
+        margin-left: 10px;
+    }
+
+    .outside {
+        position: relative;
+        width: 100%;
+        padding-bottom: 25px;
+        margin-top: 0;
+    }
+
+    .pgrm_left {
+        padding-bottom: 62px;
+    }
+
+    .img_bg {
+        padding: 10px 0;
+    }
+
+    .common_button a {
+        padding: 15px 18px;
+    }
+
+    /* About section end */
+    /* Event section Start */
+    .para_div {
+        margin: 0;
+    }
+
+    #events .evnt_head {
+        margin-bottom: 25px;
+    }
+
+    .evnt_mar {
+        margin-bottom: 30px;
+    }
+
+    #events {
+        padding: 40px 0 20px;
+    }
+
+    #events .events_btn_1 a {
+        margin: 0 5px;
+    }
+
+    /* Event section end */
+
+    /* Team section Start */
+    #team_part .team_para {
+        margin: 0;
+    }
+
+    #team_part {
+        padding: 38px 0 50px;
+    }
+
+    .tem_img {
+        margin-top: 30px;
+    }
+
+    #team_part p {
+        padding-bottom: 0;
+    }
+
+    /* Team section end */
+
+    /* Gallery section Start */
+    #gallery_part {
+        padding: 40px 0 20px;
+    }
+
+    #gallery_part .gal_row_1 {
+        margin-bottom: 0;
+        margin-right: 0;
+        margin-left: 0;
+    }
+
+    #gallery_part p {
+        padding-bottom: 34px;
+    }
+
+    #gallery_part .gal_row_2 {
+        margin-left: 0px;
+        margin-right: 0;
+    }
+
+    .gall_img {
+        margin-bottom: 30px;
+    }
+
+    .left-map {
+        position: relative;
+        top: 0;
+    }
+
+    #contact {
+        padding: 40px 0 45px;
+    }
+
+    .contact_head p {
+        padding: 7px 0 35px;
+    }
+
+    .map_img {
+        margin-bottom: 30px;
+    }
+
+    #contact h3 {
+        margin-top: 15px;
+    }
+
+    .ad_main ul li {
+        margin-bottom: 0px;
+    }
+
+    #contact h3 {
+        padding-left: 0px;
+    }
+
+    .ad_main ul li a {
+        padding-right: 0px !important;
+        width: 40px;
+        left: -20px;
+        padding-right: 38px;
+    }
+
+    .ad_main ul li p {
+        padding-left: 30px;
+    }
+
+    #copyright p {
+        font-size: 14px;
+        line-height: 30px;
+        padding: 10px 0;
+    }
+
+    #footer {
+        display: none;
+    }
+
+    .gall_img a {
+        display: block;
+    }
+
+    /* Gallery section end */
+
+    /*==================================================
+                    Home Page End
+    ==================================================*/
+
+
+    /*==================================================
+                    About Page start
+    ==================================================*/
+    #about_banner_part {
+        padding: 50px 0 50px;
+    }
+
+    .about_banner_text h1 {
+        font-size: 30px;
+    }
+
+    .about_banner_text ol li a {
+        font-size: 16px !important;
+    }
+
+    .about_banner_text ol li {
+        font-size: 16px !important;
+    }
+
+    .page_about .robot {
+        position: absolute !important;
+        top: -122px !important;
+    }
+
+    #about p {
+        text-align: justify;
+    }
+
+    .page_about {
+        padding-top: 100px !important;
+    }
+
+    /*==================================================
+                    About Page end
+    ==================================================*/
+
+    /*==================================================
+                    Tranning Page start
+    ==================================================*/
+    .tran_robo_img {
+        left: 0;
+    }
+
+    #tranning_page_part {
+        padding: 50px 0 50px;
+    }
+
+    .tran_robo_text h2 {
+        font-size: 25px;
+        padding-top: 30px;
+    }
+
+    .tran_robo_text p {
+        font-size: 15px;
+        line-height: 24px;
+        padding-top: 20px;
+        text-align: justify;
+    }
+
+    .tran_tab_menu {
+        padding: 15px;
+        font-size: 16px;
+    }
+
+    .tab_cont_main {
+        padding: 25px 10px;
+    }
+
+    .tab_cont_main p {
+        font-size: 15px;
+        line-height: 24px;
+    }
+
+    #tranning_tab_part {
+        padding-bottom: 50px;
+    }
+
+    .tran_tab_menu::after {
+        left: 15px;
+        width: 90%;
+    }
+
+    /*==================================================
+                    Tranning Page end
+    ==================================================*/
+
+    /*==================================================
+                    Research Page start
+    ==================================================*/
+    .research_robo_img {
+        left: 0 !important;
+    }
+
+    /*==================================================
+                    Research Page end
+    ==================================================*/
+
+    /*==================================================
+                Join Form Page end
+    ==================================================*/
+    .form_text h2 {
+        font-size: 25px;
+        padding-top: 20px;
+    }
+
+    #form_head {
+        padding: 50px 0;
+    }
+
+    .form_text p {
+        font-size: 15px;
+        line-height: 24px;
+        text-align: justify;
+    }
+
+    .frm_txt2 {
+        padding-top: 10px;
+    }
+
+    .form_text ol li {
+        font-size: 15px;
+        line-height: 24px;
+        padding-top: 15px;
+        text-align: justify;
+    }
+
+    .form_cv_img {
+        width: 70px;
+        height: 87px;
+        right: 15px;
+        top: -200px;
+    }
+
+    .cv_logo {
+        padding-bottom: 110px;
+    }
+
+    .cv_logo img {
+        max-width: 100%;
+    }
+
+    #main_form_cv form {
+        padding: 20px 15px;
+    }
+
+    .form_left input {
+        margin-bottom: 10px;
+    }
+
+    .form_ques p {
+        font-size: 14px;
+    }
+
+    .form_ques label {
+        font-size: 14px;
+    }
+
+    .parent_info h3 {
+        font-size: 27px;
+        padding-top: 30px;
+        padding-bottom: 20px;
+    }
+
+    #main_form_cv {
+        padding-bottom: 50px;
+    }
+
+    .emergency_cont h3 {
+        font-size: 27px;
+        padding-top: 30px;
+        padding-bottom: 20px;
+    }
+
+    /*==================================================
+                Join Form Page start
+    ==================================================*/
+
+
+}
