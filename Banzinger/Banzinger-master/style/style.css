@@ -1,0 +1,725 @@
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
+
+a {
+    text-decoration: none;
+    display: inline-block;
+}
+
+ul,
+ol {
+    list-style: none;
+}
+
+.container {
+    max-width: 1170px;
+    margin: 0 auto;
+}
+
+img {
+    display: inline-block;
+}
+
+.noMar {
+    margin-right: 0;
+}
+
+/* Common CSS End */
+
+/* Font Start */
+
+@font-face {
+    font-family: DroidSans;
+    src: url(../fonts/DroidSans.ttf);
+}
+
+@font-face {
+    font-family: DroidSansBold;
+    src: url(../fonts/DroidSans=Bold.ttf);
+}
+
+/* Font End */
+
+/* Menu Part Start */
+.menuPart {
+    background: #131e29;
+    border-bottom: solid 1px #404d5c;
+    padding-bottom: 25px;
+    padding-top: 16px;
+}
+
+
+.mainMenu {
+    float: right;
+}
+
+.mainMenu ul li {
+    float: left;
+}
+
+.mainMenu ul li a {
+    line-height: 59px;
+    margin-right: 35px;
+    color: #ffffff;
+    text-transform: uppercase;
+    font-size: 13px;
+    font-family: DroidSans;
+    transition: all linear .3s;
+    -webkit-transition: all linear .3s;
+    -moz-transition: all linear .3s;
+    -o-transition: all linear .3s;
+    -ms-transition: all linear .3s;
+
+}
+
+.mainMenu ul li a:hover {
+    color: #4bcaff;
+}
+
+/* Menu Part End */
+
+/* Banner Part Start */
+
+.bannerPart {
+    background: url(../images/banner.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    border-bottom: solid 4px #4bcaff;
+
+}
+
+
+.bannerText {
+    text-align: left;
+    padding-top: 240px;
+    margin-left: 500px;
+
+
+}
+
+.bannerText h1 {
+    display: inline-block;
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    font-size: 48px;
+    color: #ffffff;
+    margin-bottom: 20px;
+}
+
+.bannerText h1 span {
+    display: inline-block;
+    font-weight: 700;
+}
+
+.bannerText p {
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+    color: #ffffff;
+
+}
+
+.mB {
+    margin-top: 40px;
+    margin-right: 40px;
+    margin-bottom: 50px;
+    padding: 25px 50px;
+    border: solid 2px #ffffff;
+    color: #ffffff;
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    font-size: 15px;
+    text-transform: uppercase;
+    border-radius: 10px;
+    transition: all linear .3s;
+    -webkit-transition: all linear .3s;
+    -moz-transition: all linear .3s;
+    -o-transition: all linear .3s;
+    -ms-transition: all linear .3s;
+}
+
+.mB:hover {
+    background: #4bcaff;
+    border-color: #4bcaff;
+    border-bottom: solid 4px #277697;
+}
+
+.plat a {
+    background: #171a1e;
+    padding: 15px 15px;
+    border-radius: 50%;
+    margin-left: 15px;
+    margin-bottom: 115px;
+}
+
+.plat a i {
+    color: #4bcaff;
+    font-size: 20px;
+}
+
+/* Banner Part End */
+
+
+/*Summerise Part Start */
+
+.summerisePart {
+    background: #ffffff;
+    text-align: center;
+    padding-top: 42px;
+    padding-bottom: 94px;
+    border-bottom: solid 1px #e7e7e7;
+}
+
+.summerisePart h2 {
+    font-family: 'Lato', sans-serif;
+    font-weight: 900;
+    font-size: 36px;
+    color: #414042;
+}
+
+.summerisePart h4 {
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+    color: #414042;
+}
+
+.featurePart {
+    display: flex;
+    justify-content: center;
+
+}
+
+.features {
+    padding-top: 70px;
+    width: 25%;
+}
+
+
+
+.features a {
+    padding: 45px 48px;
+    font-size: 70px;
+    border-radius: 50%;
+    color: #ffffff;
+    background: #4bcaff;
+    border: solid 4px #efefef;
+
+}
+
+.features h5 {
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    font-size: 15px;
+    color: #414042;
+    text-transform: uppercase;
+    padding: 25px 0px;
+    transition: all linear .2s;
+    -webkit-transition: all linear .2s;
+    -moz-transition: all linear .2s;
+    -o-transition: all linear .2s;
+    -ms-transition: all linear .2s;
+}
+
+.features:hover h5 {
+    color: #4bcaff;
+}
+
+.features p {
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    font-size: 13px;
+    color: #838383;
+    line-height: 22px;
+    padding-right: 33px;
+    padding-left: 33px;
+
+}
+
+.phone a {
+    padding: 45px 62px;
+}
+
+/*Summerise Part End */
+
+/*Gallery Part Start */
+
+.galleryPart {
+    background: #ffffff;
+    text-align: center;
+    padding-top: 42px;
+    padding-bottom: 94px;
+    border-bottom: solid 1px #e7e7e7;
+}
+
+.galleryPart h2 {
+    font-family: 'Lato', sans-serif;
+    font-weight: 900;
+    font-size: 36px;
+    color: #414042;
+}
+
+.galleryPart h4 {
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+    color: #414042;
+    padding-bottom: 60px;
+}
+
+.screenshotPart {
+    display: flex;
+    justify-content: center;
+}
+
+.screenShot .box {
+    width: 270px;
+    height: 200px;
+    background: #4bcaff;
+    border-radius: 10px;
+    position: relative;
+    margin-bottom: 22px;
+}
+
+.screenShot .boxOverlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 41px;
+    background: rgba(0, 0, 0, 0.6);
+    color: #4bcaff;
+    line-height: 41px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    font-size: 15px;
+}
+
+.screenShot p {
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    font-size: 13px;
+    color: #838383;
+    line-height: 22px;
+    padding-right: 33px;
+    padding-left: 33px;
+
+}
+
+/*Gallery Part End */
+
+/* Action Part Start */
+
+.actionPart {
+    background: url(../images/banner2.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    padding-top: 82px;
+    padding-bottom: 197px;
+}
+
+.actionPart h2 {
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    font-size: 40px;
+    color: #ffffff;
+}
+
+.actionPart h2 span {
+    font-weight: 700;
+}
+
+.actionPart p {
+    font-family: serif;
+    font-size: 18px;
+    line-height: 24px;
+    color: #ffffff;
+    text-align: left;
+    padding-right: 200px;
+    padding-left: 350px;
+    padding-top: 40px;
+}
+
+.actionPart p span {
+    padding-top: 28px;
+    display: block;
+}
+
+/* Action Part End */
+
+/* Price Part Start */
+
+.pricePart {
+    text-align: center;
+    padding-top: 60px;
+    padding-bottom: 68px;
+    border-bottom: solid 1px #e7e7e7;
+}
+
+.pricePart h2 {
+    font-family: 'Lato', sans-serif;
+    font-weight: 900;
+    font-size: 36px;
+    color: #414042;
+}
+
+.pricePart h4 {
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+    color: #414042;
+    padding-bottom: 60px;
+}
+
+.prices {
+    display: flex;
+    justify-content: center;
+}
+
+.price {
+    width: 300px;
+    border: solid 1px #dad7d7;
+    transition: all linear .1s;
+    -webkit-transition: all linear .1s;
+    -moz-transition: all linear .1s;
+    -o-transition: all linear .1s;
+    -ms-transition: all linear .1s;
+}
+
+.packageName {
+    height: 70px;
+}
+
+.packageName h5 {
+    font-family: 'Lato', sans-serif;
+    font-weight: 900;
+    font-size: 17px;
+    text-transform: uppercase;
+    color: #d7d7d7;
+    line-height: 70px;
+    transition: all linear .1s;
+    -webkit-transition: all linear .1s;
+    -moz-transition: all linear .1s;
+    -o-transition: all linear .1s;
+    -ms-transition: all linear .1s;
+}
+
+.packagePrice {
+    background: #91c46b;
+}
+
+.packagePrice h6 {
+    font-family: DroidSansBold;
+    font-size: 85px;
+    color: #ffffff;
+    padding: 5px 0;
+}
+
+.pacOption p {
+    font-family: 'Lato', sans-serif;
+    font-weight: 900;
+    color: #d7d7d7;
+    line-height: 40px;
+    padding: 18px 0;
+    transition: all linear .1s;
+    -webkit-transition: all linear .1s;
+    -moz-transition: all linear .1s;
+    -o-transition: all linear .1s;
+    -ms-transition: all linear .1s;
+}
+
+.pacOption a {
+    text-transform: uppercase;
+    font-family: 'Lato', sans-serif;
+    font-weight: 900;
+    color: #fefefe;
+    font-size: 15px;
+    background: #91c46b;
+    padding: 19px 48px;
+    border-radius: 3px;
+    margin-bottom: 20px;
+    transition: all linear .1s;
+    -webkit-transition: all linear .1s;
+    -moz-transition: all linear .1s;
+    -o-transition: all linear .1s;
+    -ms-transition: all linear .1s;
+}
+
+.pacOption a:hover {
+    transform: scale(1.05);
+}
+
+
+.pac1 {
+    margin-right: 30px;
+
+}
+
+.pac1:hover h5 {
+    color: #91c46b;
+}
+
+.pac1:hover p {
+    color: #91c46b;
+}
+
+
+.pac2 {
+    transform: scale(1.1);
+}
+
+.pac2 h5 {
+    color: #4bcaff;
+}
+
+.pac2 p {
+    color: #4bcaff;
+}
+
+.pac2 .packagePrice {
+    background: #4bcaff;
+}
+
+.pac2 .pacOption a {
+    background: #4bcaff;
+}
+
+.pac3 {
+    margin-left: 30px;
+}
+
+.pac3 .packagePrice {
+    background: #fd7c00;
+}
+
+.pac3 .pacOption a {
+    background: #fd7c00;
+}
+
+.pac3:hover h5 {
+    color: #fd7c00;
+}
+
+.pac3:hover p {
+    color: #fd7c00;
+}
+
+.scaleUp {
+    transform: scale(1.1);
+}
+
+.scaleDown {
+    transform: scale(1);
+}
+
+/* Price Part End */
+
+/* Testimonial Part Start */
+
+.testimonialPart {
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 100px;
+}
+
+.testimonialPart h2 {
+    color: #414042;
+    font-size: 36px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 900;
+}
+
+.testText {
+    display: flex;
+
+}
+
+.testImg {
+    width: 600px;
+    padding-left: 150px;
+    padding-top: 27px;
+}
+
+.testP {
+    width: 670px;
+    margin-top: 75px;
+    text-align: left;
+}
+
+.testP p {
+    margin-left: -120px;
+    color: #4bcaff;
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 18px;
+    padding-right: 312px;
+}
+
+.testP p span {
+    display: block;
+    text-align: right;
+    font-style: italic;
+}
+
+/* Testimonial Part End */
+
+/* Like App Part Start */
+
+.appPart {
+    background: #414042;
+    text-align: center;
+    padding-top: 22px;
+    padding-bottom: 30px;
+}
+
+.appPart h4 {
+    color: #ffffff;
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    font-size: 55px;
+    padding-bottom: 24px;
+}
+
+.appPart a {
+    color: #414042;
+    text-transform: uppercase;
+    background: #4bcaff;
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    font-size: 15px;
+    padding: 20px 32px;
+    border-radius: 10px;
+    border-bottom: solid 4px #277697;
+    transition: all linear .1s;
+    -webkit-transition: all linear .1s;
+    -moz-transition: all linear .1s;
+    -o-transition: all linear .1s;
+    -ms-transition: all linear .1s;
+}
+
+.appPart a:hover {
+    transform: scale(1.1);
+}
+
+/* Like App Part End */
+
+
+/* Map Par Start */
+
+.mapPart {
+    position: relative;
+}
+
+.mapPart iframe {
+    width: 100%;
+    height: 650px;
+    margin-bottom: -3px;
+}
+
+.contactForm {
+    max-width: 1170px;
+    position: absolute;
+    top: 90px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.contactForm form {
+    text-align: center;
+    width: 325px;
+    height: 490px;
+    background: rgba(86, 195, 240, 0.6);
+    padding-top: 25px;
+    border: solid 1px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+}
+
+.contactForm form h5 {
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    font-size: 36px;
+    color: #ffffff;
+}
+
+.contactForm form input {
+    text-align: center;
+    width: 270px;
+    height: 34px;
+    border: none;
+    margin-bottom: 14px;
+    border-radius: 5px;
+    color: #000000;
+    font-size: 14px;
+}
+
+.contactForm form textarea {
+    width: 270px;
+    height: 145px;
+    border: none;
+    border-radius: 5px;
+    text-align: center;
+    color: #000000;
+    padding-top: 13px;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.contactForm form button {
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    color: #72b3cc;
+    background: #414042;
+    border: none;
+    border-bottom: solid 4px #313032;
+    padding: 18px 80px;
+    border-radius: 5px;
+}
+
+.contactForm form button:hover {
+    transition: all linear .1s;
+    -webkit-transition: all linear .1s;
+    -moz-transition: all linear .1s;
+    -o-transition: all linear .1s;
+    -ms-transition: all linear .1s;
+    transform: scale(1.05);
+}
+
+#errMsg {
+    margin-top: -5px;
+    padding-bottom: 10px;
+}
+
+/* Map Par End */
+
+/* Footer Part Start */
+
+.footerPart {
+    background: #414042;
+}
+
+.footerText {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footerText p {
+    display: inline-block;
+    color: #818081;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 110px;
+}
+
+/* Footer Part End */

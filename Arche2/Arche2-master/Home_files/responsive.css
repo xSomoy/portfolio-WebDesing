@@ -1,0 +1,2190 @@
+@media (min-width: 1200px) {
+    .about_text a {
+        display: inline-block !importan;
+    }
+}
+
+@media (min-width:992px) and (max-width: 1199px) {
+    /*========================================
+                Home page start 
+    ========================================*/
+    /*========================================
+                Header part start 
+    ========================================*/
+    .main_menu ul li a.nav-link {
+        padding: 0 12px !important;
+    }
+    .menu_form:hover input {
+        width: 125px !important;
+    }
+    .navbar {
+        height: 115px;
+    }
+    .main_menu ul li:hover ul {
+        bottom: -182px;
+    }
+    .menu_fix .navbar-brand img {
+        height: 80px;
+    }
+    /*========================================
+                Header part End 
+    ========================================*/
+    /*========================================
+                Banner part start 
+    ========================================*/
+    .demo_img_text h2 {
+        font-size: 35px;
+    }
+    #banner_part .demo_img_text {
+        padding-top: 43px;
+    }
+    .demo_img_text p {
+        font-size: 14px;
+    }
+    .demo_img_text span {
+        font-size: 13px;
+    }
+    #banner_part .banner_img img {
+        height: 670px;
+    }
+    /*========================================
+                Banner part End 
+    ========================================*/
+    /*========================================
+                About part Start 
+    ========================================*/
+    .about_text {
+        padding-top: 55px;
+        padding-bottom: 100px;
+    }
+    .about_text h3 {
+        font-size: 24px;
+        padding-bottom: 15px;
+    }
+    .about_text h5 {
+        padding-bottom: 15px;
+    }
+    .about_text a {
+        display: inline-block !important;
+    }
+    .main_counter {
+        padding: 40px 0 0 0;
+    }
+    .about_counter h4 span {
+        font-size: 50px;
+    }
+    .about_counter h4 {
+        font-size: 20px;
+    }
+    .about_counter p {
+        font-size: 20px;
+    }
+    .about_counter {
+        padding-bottom: 40px;
+    }
+    /*========================================
+                About part End 
+    ========================================*/
+    /*========================================
+                Service part Start 
+    ========================================*/
+    #service_part {
+        padding: 60px 0 160px 0;
+    }
+    .service_head h3 {
+        font-size: 24px;
+    }
+    #service_part .draggable {
+        margin-right: 0px;
+    }
+    .ser_img img {
+        max-width: 100%;
+        width: 100% !important;
+    }
+    .ser_img_mar2 {
+        margin-left: 0px;
+    }
+    .service_inner .overly {
+        right: -15px;
+        width: 350px;
+        padding: 20px;
+    }
+    .service_inner .overly h4 {
+        font-size: 20px;
+    }
+    .service_inner .overly2 {
+        right: -60px;
+    }
+    /*========================================
+                Service part End 
+    ========================================*/
+    /*========================================
+                Project part Start 
+    ========================================*/
+    #project_part {
+        padding: 56px 0 95px;
+    }
+    .project_head {
+        padding: 0 0px 55px;
+    }
+    .project_head h2 {
+        font-size: 24px;
+    }
+    .project_img .overly h5 {
+        font-size: 14px;
+    }
+    .project_img .overly i {
+        font-size: 14px;
+    }
+    .project_text h4 {
+        font-size: 17px;
+    }
+    /*========================================
+                Project part End 
+    ========================================*/
+    /*========================================
+                Testimonial part End 
+    ========================================*/
+    #test_part {
+        padding-bottom: 160px;
+    }
+    .test_head h2 {
+        font-size: 24px;
+        padding: 0px 0px 50px;
+    }
+    .test_text p {
+        font-size: 18px;
+        padding-bottom: 40px;
+    }
+    .test_text span {
+        font-size: 14px;
+    }
+    .test_inner .overly {
+        padding: 50px 20px 30px 20px;
+        width: 230px;
+    }
+    #expert_part {
+        padding: 55px 0 95px;
+    }
+    /*========================================
+                Testimonial part End 
+    ========================================*/
+    /*========================================
+                Blog part Start 
+    ========================================*/
+    #blog_part {
+        padding: 56px 0 95px;
+    }
+    .blog_head h2 {
+        font-size: 24px;
+        padding: 0px 0px 50px;
+    }
+    /*========================================
+                Blog part End 
+    ========================================*/
+    /*========================================
+                Blog detail part End 
+    ========================================*/
+    .form_part input {
+        width: 227px;
+    }
+    .form_part textarea {
+        width: 464px;
+    }
+    /*========================================
+                Blog detail part End 
+    ========================================*/
+    /*========================================
+                Footer part Start 
+    ========================================*/
+    .counter_inner {
+        padding-bottom: 60px;
+    }
+    .coun_border::after {
+        bottom: 30px;
+    }
+    .foot_logo p {
+        text-align: center;
+        padding-top: 30px;
+    }
+    .footer_form input {
+        width: 210px;
+    }
+    /*========================================
+                Footer part End 
+    ========================================*/
+    /*========================================
+                Home page End 
+    ========================================*/
+    /*========================================
+                About page Start 
+    ========================================*/
+    .about_bottom_text p span {
+        padding-top: 16px;
+    }
+    .about_page {
+        padding-top: 55px;
+    }
+    .about_page_mar {
+        margin-top: 8px;
+    }
+    /*========================================
+                About page End 
+    ========================================*/
+    /*========================================
+                Service page Start 
+    ========================================*/
+    .cate_list li {
+        line-height: 35px;
+    }
+    #category_part {
+        padding: 100px 0 90px;
+    }
+    /*========================================
+                Service page End 
+    ========================================*/
+    /*========================================
+                Blog detail page Start 
+    ========================================*/
+    #blog_detail_part {
+        padding: 50px 0 95px;
+    }
+    .blog_date_text p a {
+        font-size: 13px;
+    }
+    .tag_btn a {
+        margin-top: 60px;
+    }
+    .comment_mar {
+        margin-top: 60px;
+    }
+    /*========================================
+                Blog detail page End 
+    ========================================*/
+    /*========================================
+                Team page Start 
+    ========================================*/
+    .team_project {
+        padding: 60px 0 100px !important;
+    }
+    /*========================================
+                Team page End 
+    ========================================*/
+    /*========================================
+                Member page Start 
+    ========================================*/
+    #member_part {
+        padding: 60px 0 30px;
+    }
+    .member_text p {
+        padding-top: 10px;
+        padding-bottom: 30px;
+    }
+    /*========================================
+                Member page End 
+    ========================================*/
+    /*========================================
+                Contact page Start 
+    ========================================*/
+    .contact_info {
+        margin-top: 20px;
+    }
+    .contact_info h4 {
+        font-size: 20px;
+        padding-bottom: 5px;
+    }
+    .contact_info p {
+        font-size: 14px;
+        line-height: 22px;
+        padding-bottom: 30px;
+    }
+    .cont_form button {
+        margin-bottom: 0px;
+    }
+    .cont_form textarea {
+        margin-top: 63px;
+    }
+    .con_img a {
+        left: -73px;
+    }
+    /*========================================
+                Contact page End 
+    ========================================*/
+}
+
+@media (min-width:768px) and (max-width: 991px) {
+    /*========================================
+                Home page start 
+    ========================================*/
+    /*========================================
+                Header Part start 
+    ========================================*/
+    #header_part h6 {
+        font-size: 13px;
+    }
+    #header_part p {
+        font-size: 13px;
+    }
+    #header_part p span {
+        padding-left: 20px;
+    }
+    .navbar-brand {
+        width: 120px;
+    }
+    .main_menu ul li a.nav-link {
+        padding: 0 12px !important;
+        font-size: 14px;
+        line-height: 120px;
+    }
+    .navbar {
+        height: 120px;
+    }
+    .menu_head .navbar-brand img {
+        height: 80px;
+    }
+    .menu_fix ul li:hover ul {
+        bottom: -199px;
+    }
+    /*========================================
+                Header Part End 
+    ========================================*/
+    /*========================================
+                Banner Part Start 
+    ========================================*/
+    #banner_part .banner_img img {
+        height: 620px;
+    }
+    .banner_img .overly {
+        padding: 95px 0 0 0;
+    }
+    .banner_img .overly h1 {
+        font-size: 50px;
+    }
+    #banner_part .demo_img_text {
+        padding-top: 0px;
+    }
+    .demo_img_text h2 {
+        font-size: 20px;
+    }
+    .demo_img_text p {
+        font-size: 14px;
+    }
+    /*========================================
+                Banner Part End 
+    ========================================*/
+    /*========================================
+                About Part Start 
+    ========================================*/
+    .about_text {
+        padding-top: 65px;
+        padding-bottom: 70px;
+    }
+    .about_text h5 {
+        padding-bottom: 10px;
+    }
+    .about_text h3 {
+        font-size: 22px;
+        padding-bottom: 15px;
+    }
+    .about_text a {
+        display: inline-block !important;
+    }
+    .main_counter {
+        padding: 53px 0 0 0;
+    }
+    .about_counter h4 span {
+        font-size: 30px;
+    }
+    .about_counter h4 {
+        font-size: 16px;
+    }
+    .about_counter p {
+        font-size: 16px;
+    }
+    .about_counter {
+        padding-bottom: 40px;
+    }
+    .about_counter h4 span.last {
+        padding-right: 30px;
+    }
+    .about_line::after {
+        bottom: 20px;
+    }
+    .about_img img {
+        height: 453px;
+    }
+    /*========================================
+                About Part End 
+    ========================================*/
+    /*========================================
+                Service Part Start 
+    ========================================*/
+    .service_page {
+        padding: 70px 0 60px !important;
+    }
+    .service_head h3 {
+        font-size: 22px;
+    }
+    .ser_img_mar {
+        margin-right: 0px;
+    }
+    .service_inner .overly {
+        right: -30px;
+        bottom: -30px;
+        width: 300px;
+        padding: 15px;
+    }
+    .service_inner .overly h4 {
+        font-size: 16px;
+        padding-bottom: 10px;
+    }
+    .ser_img_mar2 {
+        margin-left: 0px;
+    }
+    .service_inner .overly a {
+        font-size: 16px;
+    }
+    .service_inner .overly2 {
+        right: -30px;
+        bottom: -30px;
+    }
+    .service_inner .overly a:hover::after {
+        height: 40px;
+    }
+    .service_inner .overly h6 {
+        font-size: 14px;
+    }
+    #service_part {
+        padding: 65px 0 130px 0;
+    }
+    #service_part .draggable {
+        margin-right: 0px;
+    }
+    /*========================================
+                Service Part End 
+    ========================================*/
+    /*========================================
+                Project Part End 
+    ========================================*/
+    #project_part {
+        padding: 65px 0;
+    }
+    .project_head h2 {
+        font-size: 22px;
+    }
+    .project_text h6 {
+        font-size: 12px;
+        margin-top: 10px;
+    }
+    .project_img .overly h5 {
+        font-size: 11px;
+        padding-right: 0px;
+    }
+    .project_text h4 {
+        font-size: 17px;
+        line-height: 24px;
+        padding-bottom: 5px;
+    }
+    .project_img .overly i {
+        font-size: 11px;
+    }
+    .project_text {
+        padding-left: 22px;
+    }
+    .project_head {
+        padding: 0 30px 50px;
+    }
+    .project_button a {
+        padding: 15px 15px;
+        font-size: 16px;
+    }
+    .project_button a:hover::after {
+        height: 50px;
+    }
+    .project_button {
+        margin-top: -6px;
+    }
+    /*========================================
+                Project Part End 
+    ========================================*/
+    /*========================================
+                Testimonial Part Start 
+    ========================================*/
+    .test_head h2 {
+        font-size: 22px;
+    }
+    .test_text {
+        padding: 30px 20px 135px 20px;
+    }
+    .test_text p {
+        font-size: 16px;
+        line-height: 24px;
+        padding-bottom: 40px;
+    }
+    .test_inner .overly {
+        padding: 25px 25px 25px 25px;
+        right: 0px;
+        bottom: -20px;
+    }
+    .mob_tes_mar {
+        margin-right: 20px;
+    }
+    .test_inner .overly h5 {
+        font-size: 16px;
+    }
+    .test_inner .overly h6 {
+        font-size: 14px;
+    }
+    #test_part ul.slick-dots {
+        bottom: -43px;
+    }
+    #test_part {
+        padding-bottom: 112px;
+    }
+    #expert_part {
+        padding: 65px 0;
+    }
+    /*========================================
+                Testimonial Part End 
+    ========================================*/
+    /*========================================
+                Expart Part Start 
+    ========================================*/
+    .expert_text h4 {
+        font-size: 16px;
+        line-height: 24px;
+        margin-top: 10px;
+    }
+    .expert_text {
+        padding-left: 20px;
+    }
+    /*========================================
+                Expart Part End 
+    ========================================*/
+    /*========================================
+                Blog Part Start 
+    ========================================*/
+    #blog_part {
+        padding: 65px 0;
+    }
+    .blog_head h2 {
+        font-size: 22px;
+        line-height: 25px;
+        padding: 0px 22px 54px;
+    }
+    .blog_mar {
+        margin-right: 0px;
+    }
+    .blog_inner .overly h4 {
+        font-size: 20px;
+    }
+    .blog_inner .overly {
+        right: -20px;
+        bottom: -20px;
+        padding: 15px;
+        width: 300px;
+    }
+    .blog_inner .overly a {
+        font-size: 16px;
+    }
+    .blog_inner .overly a:hover::after {
+        height: 35px;
+    }
+    .blog_inner .blog_img {
+        margin-bottom: 60px;
+    }
+    .blog_btn a {
+        padding: 15px 15px;
+        font-size: 16px;
+    }
+    .blog_btn a:hover::after {
+        height: 50px;
+    }
+    .blog_btn {
+        padding-top: 5px;
+    }
+    /*========================================
+                Blog Part End 
+    ========================================*/
+    /*========================================
+                Footer Part Start 
+    ========================================*/
+    #footer_part {
+        padding: 65px 0;
+    }
+    .foot_logo img {
+        padding-top: 30px;
+        width: 100px;
+    }
+    .foot_logo p {
+        text-align: center;
+        font-size: 12px;
+        padding-top: 30px;
+    }
+    .footer_contact p {
+        font-size: 14px;
+        padding-left: 40px;
+        margin-bottom: 40px;
+    }
+    .footer_contact h3 {
+        padding-bottom: 30px;
+    }
+    .footer_form h3 {
+        padding-bottom: 30px;
+    }
+    .footer_form input {
+        width: 190px;
+        height: 44px;
+        margin-bottom: 20px;
+    }
+    .footer_form button {
+        padding: 0px 10px;
+    }
+    .footer_form p {
+        padding-top: 15px;
+    }
+    /*========================================
+                Footer Part End 
+    ========================================*/
+    /*========================================
+                Home page End 
+    ========================================*/
+    /*========================================
+                About page Start 
+    ========================================*/
+    .about_page {
+        padding-top: 65px !important;
+    }
+    .about_page_about {
+        padding-bottom: 70px;
+    }
+    .about_page_mar {
+        margin-top: 0px;
+    }
+    .about_text2 {
+        padding-bottom: 90px;
+    }
+    /*========================================
+                About page End 
+    ========================================*/
+    /*========================================
+                Service page Start 
+    ========================================*/
+    #category_part {
+        padding: 70px 0 55px;
+    }
+    .category_text h3 {
+        padding: 0px 40px;
+    }
+    .category_text {
+        background: #fff;
+        border: 1px solid #d9b257;
+        padding: 15px 0;
+        margin: 0 100px;
+    }
+    .category_text {
+        padding: 15px 0;
+        margin: 0 50px;
+    }
+    .category_inner_text p {
+        padding-top: 98px;
+        padding-bottom: 23px;
+    }
+    /*========================================
+                Service page End 
+    ========================================*/
+    /*========================================
+                Project page Start 
+    ========================================*/
+    .project_page {
+        padding: 70px 0 !important;
+    }
+    .pagination_project ul li a {
+        width: 42px;
+        height: 42px;
+        line-height: 42px;
+    }
+    /*========================================
+                Project page End 
+    ========================================*/
+    /*========================================
+                Blog  page Start 
+    ========================================*/
+    .blog_page {
+        padding: 70px 0 !important;
+    }
+    /*========================================
+                Blog  page End 
+    ========================================*/
+    /*========================================
+                Blog detail page End 
+    ========================================*/
+    #blog_detail_part {
+        padding: 60px 0 65px;
+    }
+    .blog_detail_head h3 {
+        font-size: 30px;
+    }
+    .cate_list li {
+        font-size: 14px;
+        line-height: 32px;
+    }
+    .tag_btn a {
+        padding: 9px;
+        margin-right: 5px;
+        font-size: 13px;
+        margin-top: 30px;
+    }
+    .form_part input {
+        width: 167px;
+    }
+    .form_part textarea {
+        width: 344px;
+        height: 150px;
+    }
+    .categ_pad p {
+        padding-top: 62px;
+    }
+    /*========================================
+                Blog detail page End 
+    ========================================*/
+    /*========================================
+                Team page Start 
+    ========================================*/
+    .team_project {
+        padding: 70px 0 !important;
+    }
+    /*========================================
+                Team page End 
+    ========================================*/
+    /*========================================
+                Member page Start 
+    ========================================*/
+    #member_part {
+        padding: 70px 0 65px;
+    }
+    .member_text p {
+        padding-top: 10px;
+        padding-bottom: 30px;
+        font-size: 14px;
+        line-height: 24px;
+    }
+    .member_text p span {
+        padding-top: 15px;
+    }
+    .member_img ul li a {
+        width: 50px;
+        height: 50px;
+        line-height: 50px;
+    }
+    .member_bar h3 {
+        line-height: 20px;
+        padding-bottom: 15px;
+    }
+    .counter_inner {
+        width: 25%;
+        float: left;
+        padding-bottom: 0;
+    }
+    .counter_two {
+        padding-top: 20px;
+    }
+    .counter_inner p span {
+        font-size: 45px;
+    }
+    .counter_inner p {
+        font-size: 20px;
+        line-height: 28px;
+    }
+    .coun_border::after {
+        display: none
+    }
+    /*========================================
+                Member page End 
+    ========================================*/
+    /*========================================
+                404 page Start 
+    ========================================*/
+    #error_404 {
+        padding: 100px 0;
+    }
+    .error_inner img {
+        height: 180px;
+    }
+    /*========================================
+                404 page End 
+    ========================================*/
+    /*========================================
+                Contact page Start 
+    ========================================*/
+    .con_img a {
+        left: -78px;
+    }
+    .conta_left_pad {
+        padding-left: 0px;
+    }
+    .contact_info {
+        margin-top: 25px;
+    }
+    .contact_info p {
+        padding-bottom: 20px;
+    }
+    .cont_form input {
+        width: 100%;
+        margin-bottom: 10px;
+        margin-right: 0;
+    }
+    .cont_form textarea {
+        margin-top: 50px;
+    }
+    .cont_form {
+        margin-top: 20px;
+    }
+    .comment_mar {
+        margin-top: 50px;
+    }
+    .cont_form button {
+        margin-bottom: 70px;
+    }
+    /*========================================
+                Contact page End 
+    ========================================*/
+}
+
+@media (min-width:576px) and (max-width: 767px) {
+    /*========================================
+                Home page start 
+    ========================================*/
+    /*========================================
+                Header Part start 
+    ========================================*/
+    #header_part {
+        display: none;
+    }
+    .navbar-brand {
+        width: 60px;
+    }
+    .navbar {
+        height: 115px;
+        padding: 10px;
+    }
+    .menu_head .navbar-brand img {
+        height: 80px;
+    }
+    .menu_head button.navbar-toggler {
+        border: 1px solid #d9b257;
+        outline: 0;
+        padding: 12px 15px;
+        color: #d9b257;
+    }
+    .main_menu {
+        background: #fff;
+        text-align: center;
+        margin: 13px auto;
+    }
+    .main_menu ul li a.nav-link {
+        line-height: 50px;
+    }
+    .menu_form {
+        display: none;
+    }
+    .menu_head .navbar-collapse {
+        border-top: 2px solid #d9b257;
+    }
+    .main_menu ul li ul {
+        left: 50%;
+        width: 200px;
+        transform: translateX(-50%);
+    }
+    .main_menu ul li:hover ul {
+        bottom: -150px;
+        z-index: 99;
+    }
+    .menu_fix ul li:hover ul {
+        bottom: -150px;
+        z-index: 99;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    .main_menu ul li ul::after {
+        left: 50%;
+        transform: translateX(-50%);
+        z-index: 99;
+    }
+    .main_menu ul li ul li a {
+        line-height: 30px;
+    }
+    /*========================================
+                Header Part End 
+    ========================================*/
+    /*========================================
+                Banner Part Start 
+    ========================================*/
+    #banner_part .banner_img img {
+        height: 435px;
+    }
+    .banner_img .overly h1 {
+        font-size: 45px;
+    }
+    /*========================================
+                Banner Part End 
+    ========================================*/
+    /*========================================
+                About Part Start 
+    ========================================*/
+    .about_text {
+        padding-top: 30px;
+        text-align: center;
+    }
+    .about_text h5 {
+        padding-bottom: 15px;
+    }
+    .about_text h3 {
+        font-size: 25px;
+        padding-bottom: 15px;
+    }
+    .about_text a.about2_btn {
+        display: none !important;
+    }
+    .main_counter {
+        padding: 0px 0 0 0;
+    }
+    .about_counter h4 span {
+        font-size: 35px;
+    }
+    .about_counter {
+        padding-bottom: 0px;
+    }
+    .about_counter h4 {
+        font-size: 16px;
+    }
+    .about_counter p {
+        font-size: 16px;
+    }
+    .about_counter h4 span.last {
+        padding-right: 35px;
+    }
+    .about_btn {
+        margin-bottom: 60px;
+    }
+    /*========================================
+                About Part End 
+    ========================================*/
+    /*========================================
+                Service Part Start 
+    ========================================*/
+    #service_part .draggable {
+        margin-right: 0px;
+    }
+    #service_part {
+        padding: 55px 0 115px 0;
+    }
+    .service_inner {
+        margin-right: 12px;
+    }
+    .service_head h3 {
+        font-size: 25px;
+        padding-bottom: 40px;
+        padding-top: 5px;
+    }
+    .project_head {
+        padding: 0 30px 36px;
+    }
+    .project_head h2 {
+        font-size: 25px;
+        padding-top: 5px;
+    }
+    #service_part ul.slick-dots {
+        bottom: -57px;
+    }
+    /*========================================
+                Service Part End 
+    ========================================*/
+    /*========================================
+                Project Part Start 
+    ========================================*/
+    #project_part {
+        padding: 55px 0;
+    }
+    .project_img .overly h5 {
+        font-size: 14px;
+    }
+    .main_project {
+        margin-bottom: 20px;
+    }
+    .project_button a {
+        padding: 15px 15px;
+        font-size: 18px;
+    }
+    .project_button a:hover::after {
+        height: 50px;
+    }
+    .project_text h4 {
+        font-size: 18px;
+    }
+    .project_text h6 {
+        margin-top: 15px;
+    }
+    .project_text {
+        padding-left: 0px;
+    }
+    .project_button {
+        margin-top: -7px;
+    }
+    /*========================================
+                Project Part End 
+    ========================================*/
+    /*========================================
+                Testmonial Part Start 
+    ========================================*/
+    .test_head h2 {
+        font-size: 25px;
+        padding: 0px 22px 40px;
+    }
+    .test_inner .overly {
+        right: 0px;
+        bottom: -15px;
+    }
+    .test_text p {
+        font-size: 18px;
+        line-height: 26px;
+        padding-bottom: 50px;
+    }
+    .test_text {
+        padding: 30px 20px 30px 20px;
+    }
+    #test_part {
+        padding-bottom: 100px;
+    }
+    #test_part ul.slick-dots {
+        bottom: -40px;
+    }
+    /*========================================
+                Testmonial Part End 
+    ========================================*/
+    /*========================================
+                Expart and Blog Part Start 
+    ========================================*/
+    .expert_text {
+        padding-left: 0px;
+    }
+    #blog_part {
+        padding: 55px 0;
+    }
+    .blog_head h2 {
+        font-size: 25px;
+        padding: 0px 22px 40px;
+    }
+    .blog_inner .overly {
+        padding: 15px;
+        width: 240px;
+    }
+    .blog_inner .overly h4 {
+        font-size: 15px;
+        line-height: 25px;
+    }
+    .blog_inner .overly h6 span {
+        padding-left: 5px;
+    }
+    .blog_inner .overly h6 {
+        font-size: 12px;
+    }
+    .blog_mar {
+        margin-right: 0px;
+    }
+    .blog_inner .overly {
+        right: -20px;
+        bottom: -20px;
+    }
+    .blog_inner .overly a {
+        font-size: 16px;
+    }
+    .blog_inner .overly a:hover::after {
+        height: 36px;
+    }
+    .blog_inner .blog_img {
+        margin-bottom: 50px;
+    }
+    .blog_btn a {
+        padding: 15px 15px;
+        font-size: 16px;
+    }
+    .blog_btn a:hover::after {
+        height: 50px;
+    }
+    .expert_btn {
+        margin-top: -18px;
+    }
+    /*========================================
+                Expart and Blog Part End 
+    ========================================*/
+    /*========================================
+                Footer Part Start 
+    ========================================*/
+    #footer_part {
+        padding: 60px 0;
+    }
+    .foot_logo img {
+        padding-top: 0px;
+    }
+    .foot_logo p {
+        padding-top: 15px;
+        text-align: center;
+        padding-bottom: 30px;
+    }
+    .footer_contact h3 {
+        padding-bottom: 15px;
+        padding-top: 15px;
+    }
+    .footer_contact p {
+        font-size: 14px;
+        padding-left: 40px;
+        margin-bottom: 20px;
+    }
+    .footer_contact p i {
+        font-size: 25px;
+    }
+    .footer_form h3 {
+        padding-bottom: 20px;
+        padding-top: 20px;
+    }
+    .footer_form input {
+        width: 190px;
+        margin-bottom: 23px;
+    }
+    .footer_form button {
+        padding: 0px 10px;
+        font-size: 15px;
+    }
+    .foot_logo p {
+        padding-bottom: 22px;
+    }
+    .foot_logo {
+        border-bottom: 1px solid #fff;
+    }
+    .footer_form input {
+        height: 44px;
+    }
+    /*========================================
+                Footer Part End 
+    ========================================*/
+    /*========================================
+                Home page End 
+    ========================================*/
+    /*========================================
+                About page Start 
+    ========================================*/
+    .ab_pg_1st_img2 {
+        margin-top: 0px;
+    }
+    .about_bottom_text p {
+        padding-bottom: 60px;
+        text-align: center;
+    }
+    .about_page {
+        padding-top: 56px !important;
+    }
+    .about_page_about {
+        padding-bottom: 60px;
+    }
+    .about_text p span {
+        padding-top: 20px;
+    }
+    .about_page_mar {
+        margin-top: 55px;
+    }
+    /*========================================
+                About page End 
+    ========================================*/
+    /*========================================
+                Service page Start 
+    ========================================*/
+    #category_part {
+        padding: 60px 0 52px;
+    }
+    .category_text {
+        padding: 15px 10px;
+        margin: 0px 30px;
+    }
+    .category_text h5 {
+        line-height: 26px;
+    }
+    .category_text h3 {
+        font-size: 22px;
+        line-height: 26px;
+        padding: 0px 0px;
+    }
+    .category_main .category_text {
+        bottom: -50px;
+    }
+    .category_inner_text p {
+        font-size: 15px;
+        padding-bottom: 25px;
+        padding-top: 80px;
+    }
+    .cate_list li {
+        line-height: 32px;
+    }
+    .service_page p {
+        padding-top: 70px !important;
+    }
+    /*========================================
+                Service page End 
+    ========================================*/
+    /*========================================
+                Project page Start 
+    ========================================*/
+    .pagination_project ul li a {
+        width: 45px;
+        height: 45px;
+        line-height: 45px;
+    }
+    .project_page {
+        padding: 60px 0 !important;
+    }
+    /*========================================
+                Project page End 
+    ========================================*/
+    /*========================================
+                Blog  page Start 
+    ========================================*/
+    .blog_page {
+        padding: 60px 0 !important;
+    }
+    /*========================================
+                Blog  page End 
+    ========================================*/
+    /*========================================
+                Blog detail page End 
+    ========================================*/
+    .blog_detail_page {
+        padding: 50px 0 45px !important;
+    }
+    .blog_detail_head h3 {
+        font-size: 26px;
+    }
+    .blog_date_text p a {
+        font-size: 13px;
+        padding-right: 9px;
+        margin-bottom: 20px;
+    }
+    .blog_detail_text p span {
+        padding-top: 15px;
+    }
+    .blog_detail_color_text {
+        padding: 15px 15px;
+    }
+    .blog_detail_color_text p {
+        font-size: 18px;
+    }
+    .blog_detail_text p {
+        padding: 20px 0 35px 0;
+    }
+    .category_inner_text p {
+        padding-bottom: 20px;
+        padding-top: 50px;
+    }
+    .tag_btn a {
+        margin-top: 30px;
+    }
+    .comment_mar {
+        margin-top: 20px;
+    }
+    .com_head h4 {
+        padding-bottom: 20px;
+        padding-top: 30px;
+    }
+    .bl_fm_mar {
+        margin-bottom: 10px;
+    }
+    .form_part input {
+        width: 100%;
+        margin-right: 15px;
+    }
+    .form_part textarea {
+        width: 100%;
+    }
+    /*========================================
+                Blog detail page End 
+    ========================================*/
+    /*========================================
+                Team page Start 
+    ========================================*/
+    .team_project {
+        padding: 60px 0 !important;
+    }
+    /*========================================
+                Team page End 
+    ========================================*/
+    /*========================================
+                Member page Start 
+    ========================================*/
+    #member_part {
+        padding: 60px 0 55px;
+    }
+    .member_text p span {
+        display: none;
+    }
+    .member_img ul li a {
+        width: 40px;
+        height: 40px;
+        line-height: 40px;
+    }
+    .member_text p {
+        font-size: 14px;
+        line-height: 23px;
+        padding-top: 0px;
+        padding-bottom: 15px;
+    }
+    .member_bar h3 {
+        font-size: 18px;
+        line-height: 22px;
+        padding-bottom: 10px;
+    }
+    .member_bar h5 {
+        padding-bottom: 0px;
+    }
+    .barfiller {
+        height: 8px;
+        margin-bottom: 9px;
+    }
+    .counter_two {
+        margin-top: 20px;
+    }
+    .counter_inner {
+        width: 25%;
+        float: left;
+        padding-bottom: 0;
+    }
+    .counter_inner p span {
+        font-size: 30px;
+    }
+    .counter_inner p {
+        font-size: 16px;
+        line-height: 24px;
+    }
+    .coun_border::after {
+        display: none;
+    }
+    .barfiller .tip {
+        padding: 6px 4px;
+        font-size: 13px;
+    }
+    /*========================================
+                Member page End 
+    ========================================*/
+    /*========================================
+                404 page Start 
+    ========================================*/
+    #error_404 {
+        padding: 60px 0 60px;
+        height: 100vh;
+    }
+    .error_inner h2 {
+        font-size: 35px;
+        padding: 35px 0;
+    }
+    .error_inner a {
+        font-size: 18px;
+        line-height: 50px;
+    }
+    .error_inner a:hover::after {
+        height: 50px;
+    }
+    .error_inner img {
+        height: 130px;
+    }
+    .dropdown-menu .dropdown-item.active,
+    .dropdown-menu .dropdown-item:active {
+        background-color: transparent!important;
+    }
+    /*========================================
+                404 page End 
+    ========================================*/
+    /*========================================
+                Contact page Start 
+    ========================================*/
+    .con_img a {
+        left: -82px;
+    }
+    .conta_left_pad {
+        padding-left: 0px;
+    }
+    .contact_info {
+        margin-top: 25px;
+    }
+    .contact_info p {
+        padding-bottom: 0px;
+    }
+    .contact_info h4 {
+        font-size: 22px;
+        padding-bottom: 5px;
+    }
+    .cont_form h4 {
+        font-size: 22px;
+        margin-top: 30px;
+        padding-bottom: 10px;
+    }
+    .cont_form input {
+        width: 100%;
+        margin-right: 0;
+        margin-top: 10px;
+    }
+    .cont_form textarea {
+        margin-top: 50px;
+    }
+    .cont_form button {
+        margin-bottom: 60px;
+    }
+    /*========================================
+                Contact page End 
+    ========================================*/
+}
+
+@media (max-width: 575px) {
+    /*========================================
+                Home page start 
+    ========================================*/
+    /*========================================
+                Header Part start 
+    ========================================*/
+    #header_part {
+        display: none;
+    }
+    .navbar-brand {
+        width: 47px;
+    }
+    .navbar {
+        height: 90px;
+    }
+    .menu_head .navbar-brand img {
+        height: 70px;
+    }
+    .menu_head button.navbar-toggler {
+        border: 1px solid #d9b257;
+        outline: 0;
+        padding: 12px 15px;
+        color: #d9b257;
+    }
+    .main_menu {
+        background: #fff;
+        text-align: center;
+        margin-top: 6px;
+    }
+    .main_menu ul li a.nav-link {
+        line-height: 50px;
+    }
+    .menu_form {
+        display: none;
+    }
+    .menu_head .navbar-collapse {
+        border-top: 2px solid #d9b257;
+    }
+    .main_menu ul li ul {
+        left: 50%;
+        width: 200px;
+        transform: translateX(-50%);
+    }
+    .main_menu ul li:hover ul {
+        bottom: -150px;
+        z-index: 99;
+    }
+    .menu_fix ul li:hover ul {
+        bottom: -150px;
+        z-index: 99;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    .main_menu ul li ul::after {
+        left: 50%;
+        transform: translateX(-50%);
+        z-index: 99;
+    }
+    .main_menu ul li ul li a {
+        line-height: 30px;
+    }
+    .navbar-nav .dropdown-menu {
+        position: absolute;
+        left: 50%;
+        transform: translate(-50%);
+    }
+    /*========================================
+                Header Part End 
+    ========================================*/
+    /*========================================
+                Banner Part Start 
+    ========================================*/
+    .banner_img .overly {
+        padding: 90px 0;
+    }
+    .banner_img .overly h1 {
+        font-size: 32px;
+    }
+    .banner_img .overly a span {
+        padding: 0px 10px;
+    }
+    .banner_img .overly a i {
+        padding: 0 13px 0 13px;
+    }
+    #banner_part .banner_img img {
+        height: 400px;
+    }
+    .demo_img_text h2 {
+        font-size: 30px;
+    }
+    .banner_row {
+        width: 100%
+    }
+    .demo_img_text p {
+        font-size: 15px;
+    }
+    .demo_img_text span {
+        font-size: 13px;
+    }
+    #banner_part .item::after {
+        width: 90%;
+    }
+    /*========================================
+                Banner Part End 
+    ========================================*/
+    /*========================================
+                About Part Start 
+    ========================================*/
+    ..about_text {
+        padding-top: 25px;
+        text-align: center;
+        padding-bottom: 10px;
+    }
+    .about_text h5 {
+        padding-bottom: 7px;
+    }
+    .about_text h3 {
+        font-size: 20px;
+        padding-bottom: 15px;
+    }
+    .about_counter h4 span.last {
+        padding-right: 25px;
+    }
+    .main_counter {
+        padding: 0px 0 0 0;
+    }
+    .about_counter h4 span {
+        font-size: 28px;
+        display: block;
+    }
+    .about_counter h4 {
+        font-size: 14px;
+    }
+    .about_text a {
+        font-size: 16px;
+        line-height: 40px;
+        padding: 0 15px;
+    }
+    .about_text a:hover::after {
+        height: 40px;
+    }
+    .about_counter p {
+        font-size: 14px;
+    }
+    .about_counter {
+        padding-bottom: 0px;
+    }
+    .about_text a.about2_btn {
+        font-size: 16px;
+        display: none !important;
+    }
+    #service_part {
+        padding: 45px 0 80px 0;
+    }
+    .service_head h3 {
+        font-size: 20px;
+        padding-bottom: 30px;
+    }
+    .about_btn {
+        margin-bottom: 50px;
+        text-align: center;
+    }
+    #service_part ul.slick-dots {
+        bottom: -30px;
+    }
+    .about_text {
+        padding-top: 45px;
+    }
+    /*========================================
+                About Part End 
+    ========================================*/
+    /*========================================
+                Project Part Start 
+    ========================================*/
+    #project_part {
+        padding: 46px 0 43px;
+    }
+    .project_page {
+        padding: 50px 0 !important;
+    }
+    .about_text {
+        padding-top: 30px;
+    }
+    .project_head {
+        padding: 0 0px 30px;
+    }
+    .project_head h2 {
+        font-size: 20px;
+        line-height: 24px;
+        padding-top: 10px;
+    }
+    /*========================================
+                Project Part End 
+    ========================================*/
+    /*========================================
+                Service Part Start 
+    ========================================*/
+    .ser_img_mar {
+        margin-right: 0;
+    }
+    .ser_img_mar2 {
+        margin-left: 0px;
+    }
+    .service_inner .overly {
+        right: -15px;
+        padding: 10px;
+        width: 230px;
+        bottom: -15px;
+    }
+    .service_inner .overly h6 {
+        font-size: 13px;
+    }
+    .service_inner .overly h4 {
+        font-size: 16px;
+        padding-bottom: 10px;
+    }
+    .service_inner .overly a {
+        font-size: 14px;
+    }
+    .service_inner .overly a:hover::after {
+        height: 35px;
+    }
+    .main_project {
+        margin-bottom: 12px;
+    }
+    .project_text {
+        padding-left: 0px;
+        padding-bottom: 16px;
+    }
+    .project_text h6 {
+        margin-top: 15px;
+    }
+    .project_button a {
+        padding: 15px 10px;
+        line-height: 20px;
+        font-size: 16px;
+        margin-top: -5px;
+    }
+    .project_button a:hover::after {
+        height: 45px;
+    }
+    .test_head h2 {
+        font-size: 20px;
+        line-height: 25px;
+        padding: 5px 0px 30px;
+    }
+    #service_part .draggable {
+        margin-right: 0px;
+    }
+    #service_part .slick-initialized .slick-slide {
+        margin-right: 0px;
+    }
+    .service_inner .overly2 {
+        bottom: -15px;
+    }
+    /*========================================
+                Service Part End 
+    ========================================*/
+    /*========================================
+                Testimonial Part Start 
+    ========================================*/
+    .test_text p {
+        font-size: 15px;
+        line-height: 24px;
+        padding-bottom: 30px;
+    }
+    .test_text {
+        padding: 20px 20px 90px 20px;
+    }
+    .test_inner .overly {
+        padding: 20px 20px 20px 20px;
+        width: 220px;
+        right: 0px;
+    }
+    .test_inner .overly h5 {
+        font-size: 16px;
+    }
+    .test_inner .overly h6 {
+        font-size: 13px;
+    }
+    #test_part {
+        padding-bottom: 90px;
+    }
+    #test_part ul.slick-dots {
+        bottom: -40px;
+    }
+    /*========================================
+                Testimonial Part End 
+    ========================================*/
+    /*========================================
+                Expart Part Start 
+    ========================================*/
+    #expert_part {
+        padding: 45px 0;
+    }
+    .expert_text {
+        padding-left: 0px;
+    }
+    #blog_part {
+        padding: 45px 0;
+    }
+    .blog_head h2 {
+        font-size: 20px;
+        line-height: 25px;
+        padding: 5px 0px 30px;
+    }
+    .blog_inner .overly {
+        padding: 15px;
+        right: -15px;
+        bottom: -15px;
+        width: 250px;
+    }
+    .blog_inner .overly h6 {
+        font-size: 12px;
+        line-height: 25px;
+        margin-bottom: -5px;
+    }
+    .blog_inner .overly h4 {
+        font-size: 13px;
+        line-height: 25px;
+        padding-bottom: 0px;
+    }
+    .blog_inner .overly a {
+        font-size: 14px;
+        padding: 14px 10px;
+    }
+    .blog_inner .overly a:hover::after {
+        height: 32px;
+    }
+    .blog_inner .blog_img {
+        margin-bottom: 50px;
+    }
+    .blog_btn a {
+        padding: 10px 10px;
+        font-size: 16px;
+        line-height: 25px;
+    }
+    .blog_btn a:hover::after {
+        height: 38px;
+    }
+    /*========================================
+                Expart Part End 
+    ========================================*/
+    /*========================================
+                Footer Part Start 
+    ========================================*/
+    #footer_part {
+        padding: 50px 0;
+    }
+    .foot_logo img {
+        padding-top: 0px;
+    }
+    .foot_logo p {
+        padding-top: 15px;
+        text-align: center;
+        padding-bottom: 30px;
+    }
+    .footer_contact h3 {
+        padding-bottom: 15px;
+        padding-top: 15px;
+    }
+    .footer_contact p {
+        font-size: 14px;
+        padding-left: 40px;
+        margin-bottom: 20px;
+    }
+    .footer_contact p i {
+        font-size: 25px;
+    }
+    .footer_form h3 {
+        padding-bottom: 20px;
+        padding-top: 20px;
+    }
+    .footer_form input {
+        width: 190px;
+        margin-bottom: 23px;
+    }
+    .footer_form button {
+        padding: 0px 10px;
+    }
+    .foot_logo p {
+        padding-bottom: 22px;
+    }
+    .foot_logo {
+        border-bottom: 1px solid #fff;
+    }
+    /*========================================
+                Footer Part End 
+    ========================================*/
+    /*========================================
+                Home page End 
+    ========================================*/
+    /*========================================
+                About page Start 
+    ========================================*/
+    .about_text p span {
+        padding-top: 20px;
+    }
+    .about_banner_menu h2 {
+        font-size: 30px;
+    }
+    .about_banner_menu a {
+        font-size: 14px;
+    }
+    .ab_pg_1st_img2 {
+        margin-top: 33px;
+    }
+    .ab_pg_1st_img {
+        margin-top: 33px;
+    }
+    .about_bottom_text p {
+        padding-bottom: 60px;
+        text-align: center;
+    }
+    .about_page {
+        padding-top: 48px;
+    }
+    .about_page_about {
+        padding-bottom: 50px;
+    }
+    .about_page_mar {
+        margin-top: 0px;
+    }
+    /*========================================
+                About page End 
+    ========================================*/
+    /*========================================
+                Blog details page Start 
+    ========================================*/
+    #blog_detail_part {
+        padding: 45px 0 35px;
+    }
+    .blog_detail_head h3 {
+        font-size: 18px;
+        line-height: 26px;
+    }
+    .blog_detail_text p span {
+        padding-top: 10px;
+    }
+    .blog_detail_text p {
+        padding: 20px 0 30px 0;
+    }
+    .blog_detail_color_text {
+        padding: 20px 10px;
+    }
+    .blog_detail_color_text p {
+        font-size: 16px;
+    }
+    .category_inner_text p {
+        padding-top: 32px !important;
+    }
+    .tag_btn a {
+        margin-top: 10px;
+        line-height: 10px;
+    }
+    .tag_btn span {
+        font-size: 16px;
+        padding-right: 10px;
+    }
+    .share_icon a {
+        width: 35px;
+        height: 35px;
+        font-size: 14px;
+        line-height: 35px;
+        margin-top: 15px;
+    }
+    .share_icon span {
+        font-size: 16px;
+        padding-right: 10px;
+    }
+    .comment_mar {
+        margin-top: 0px;
+    }
+    .blg_dtl_pad {
+        padding-right: 0 !important;
+    }
+    .blog_date_text p a i {
+        padding-right: 2px;
+    }
+    .blog_date_text p a {
+        font-size: 12px;
+        line-height: 32px;
+        padding-right: 10px;
+        margin-bottom: 0px;
+    }
+    .blog_date_text {
+        padding-bottom: 15px;
+    }
+    .com_head h4 {
+        padding-bottom: 20px;
+    }
+    .com_head h4 {
+        padding-top: 30px;
+    }
+    .bl_fm_mar {
+        margin-bottom: 10px;
+    }
+    .form_part input {
+        width: 100%;
+        margin-right: 0;
+    }
+    .form_part .row {
+        margin-right: 0px;
+    }
+    .form_part textarea {
+        width: 100%;
+    }
+    .form_part button {
+        margin-top: 10px;
+    }
+    .comment_text span {
+        float: inherit;
+        display: block;
+    }
+    .blog_page {
+        padding: 50px 0 !important;
+    }
+    /*========================================
+                Blog details page End 
+    ========================================*/
+    /*========================================
+                Team page Start 
+    ========================================*/
+    .team_project {
+        padding: 50px 0 !important;
+    }
+    .main_project {
+        margin-bottom: 0px;
+    }
+    .expert_text h6 {
+        padding-bottom: 30px;
+    }
+    /*========================================
+                Team page End 
+    ========================================*/
+    /*========================================
+                Member page Start 
+    ========================================*/
+    #member_part {
+        padding: 50px 0;
+    }
+    .member_img ul li a {
+        width: 45px;
+        height: 45px;
+        line-height: 45px;
+        margin-right: 10px;
+    }
+    .member_img ul {
+        right: 50%;
+        top: 100%;
+        transform: translateX(50%);
+        display: flex;
+        margin-top: -22px;
+        z-index: 99;
+    }
+    .member_text {
+        margin-top: 40px;
+    }
+    .member_text p {
+        font-size: 14px;
+        padding-top: 10px;
+        padding-bottom: 30px;
+    }
+    .member_text p span {
+        padding-top: 10px;
+    }
+    .counter_inner {
+        padding-bottom: 60px;
+        width: 50%;
+        float: left;
+    }
+    .counter_two {
+        padding-top: 20px;
+    }
+    .counter_inner p span {
+        font-size: 30px;
+    }
+    .counter_inner p {
+        font-size: 18px;
+        line-height: 25px;
+    }
+    .coun_border::after {
+        bottom: 25px;
+    }
+    .counter_two .coun_border:nth-child(3):after {
+        display: none;
+    }
+    .counter_two .counter_inner:nth-child(3),
+    .counter_two .counter_inner:last-child {
+        padding-bottom: 0;
+    }
+    /*========================================
+                Member page End 
+    ========================================*/
+    /*========================================
+                404 page Start 
+    ========================================*/
+    #error_404 {
+        padding: 70px 0;
+        height: 100vh;
+    }
+    .error_inner h2 {
+        font-size: 35px;
+        padding: 30px 0 30px 0;
+    }
+    .error_inner a {
+        font-size: 18px;
+        line-height: 50px;
+    }
+    .error_inner a:hover::after {
+        height: 50px;
+    }
+    /*========================================
+                404 page End 
+    ========================================*/
+    /*========================================
+                Service page Start 
+    ========================================*/
+    #category_part {
+        padding: 50px 0 35px;
+    }
+    .category_text {
+        padding: 5px 10px;
+        margin: 0px 15px;
+    }
+    .ser_category_text p {
+        padding-top: 62px !important;
+    }
+    .category_main .category_text {
+        bottom: -40px;
+    }
+    .category_text h5 {
+        font-size: 14px;
+        line-height: 24px;
+    }
+    .category_text h3 {
+        font-size: 18px;
+        line-height: 24px;
+        padding: 0px 0px;
+    }
+    .category_inner_text p {
+        font-size: 14px;
+        line-height: 24px;
+        padding-top: 63px;
+        padding-bottom: 20px;
+    }
+    .cate_list li {
+        font-size: 14px;
+        line-height: 24px;
+        padding-bottom: 10px;
+    }
+    .pagination_project ul li a {
+        width: 40px;
+        height: 40px;
+        line-height: 40px;
+    }
+    /*========================================
+                Service page End 
+    ========================================*/
+    /*========================================
+                Contact page Start 
+    ========================================*/
+    .conta_left_pad {
+        padding-left: 0px;
+    }
+    .contact_info {
+        margin-top: 20px;
+    }
+    .contact_info h4 {
+        font-size: 20px;
+        padding-bottom: 5px;
+    }
+    .contact_info p {
+        font-size: 14px;
+        line-height: 22px;
+        padding-bottom: 0px;
+    }
+    .cont_form h4 {
+        font-size: 20px;
+        padding-bottom: 10px;
+        margin-top: 20px;
+    }
+    .cont_form input {
+        width: 100%;
+        height: 45px;
+        margin-right: 0px;
+        margin-bottom: 10px;
+    }
+    .cont_form textarea {
+        margin-top: 30px;
+    }
+    .cont_form button {
+        padding: 8px 0;
+        font-size: 18px;
+    }
+    .con_img a {
+        left: -45px;
+    }
+    /*========================================
+                Contact page End 
+    ========================================*/
+}
+
+@media (min-width: 480px) and (max-width: 575px) {
+    .service_inner .overly {
+        width: 330px;
+    }
+    .service_inner .overly h6 {
+        font-size: 15px;
+    }
+    .service_inner .overly h4 {
+        font-size: 18px;
+    }
+    .service_inner .overly a {
+        font-size: 16px;
+    }
+    .test_text {
+        padding: 30px 20px 30px 20px;
+    }
+    .blog_inner .overly {
+        padding: 20px;
+        width: 330px;
+    }
+    .blog_inner .overly h6 {
+        font-size: 14px;
+    }
+    .blog_inner .overly h4 {
+        font-size: 18px;
+    }
+    .blog_inner .overly a {
+        font-size: 16px;
+    }
+    .blog_inner .overly a:hover::after {
+        height: 36px;
+    }
+    .blog_btn a {
+        padding: 15px 10px;
+        font-size: 18px;
+    }
+    .blog_btn a:hover::after {
+        height: 50px;
+    }
+    .category_text h3 {
+        font-size: 22px;
+    }
+}
